@@ -1,0 +1,11 @@
+/tmp/20150220T23:28:07-cipres-27644.gramauditGateway user attribute (freyman@berkeley.edu) submitted for job 2510927.trestles-fe1.local.
+OK
+Job Id: 2510927.trestles-fe1.local
+    Job_Name = NGBW-JOB-RAXMLHPC2BB-3585DBBC46D14F889EB73B0E1A25CCD2
+    Job_Owner = cipres@trestles-login1.local
+    resources_used.cput = 00:00:00
+    resources_used.mem = 27352kb
+    resources_used.vmem = 447964kb
+    resources_used.walltime = 00:03:22
+OK
+Nodes:        trestles-1-4 trestles-1-5

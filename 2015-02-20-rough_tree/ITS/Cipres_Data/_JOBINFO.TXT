@@ -1,0 +1,14 @@
+Task\ label=rough tree ITS
+Task\ ID=616450
+Tool=RAXMLHPC2BB
+created\ on=2015-02-20 15:27:09.0
+JobHandle=NGBW-JOB-RAXMLHPC2BB-3585DBBC46D14F889EB73B0E1A25CCD2
+resource=trestles
+User\ ID=68621
+User\ Name=freyman@berkeley.edu
+email=freyman@berkeley.edu
+
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=64
+JOBID=2510927.trestles-fe1.local

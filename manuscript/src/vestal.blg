@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: vestal.aux
+The style file: apsrev.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: vestal.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 7 entries,
+            3411 wiz_defined-function locations,
+            1201 strings with 11322 characters,
+and the built_in function-call counts, 5277 in all, are:
+= -- 281
+> -- 215
+< -- 28
++ -- 180
+- -- 52
+* -- 749
+:= -- 554
+add.period$ -- 7
+call.type$ -- 7
+change.case$ -- 30
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 474
+empty$ -- 420
+format.name$ -- 129
+if$ -- 968
+int.to.chr$ -- 1
+int.to.str$ -- 8
+missing$ -- 69
+newline$ -- 36
+num.names$ -- 21
+pop$ -- 128
+preamble$ -- 1
+purify$ -- 28
+quote$ -- 0
+skip$ -- 184
+stack$ -- 0
+substring$ -- 130
+swap$ -- 392
+text.length$ -- 26
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 42
+warning$ -- 0
+while$ -- 19
+width$ -- 0
+write$ -- 84

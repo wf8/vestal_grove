@@ -1,0 +1,100 @@
+tree = readTree("RAxML_bipartitions.result.tree")[1]
+tree = readTrees("RAxML_bipartitions.result.tree")[1]
+sample = clade(["Hydrocotyle_umbellata","Hydrocotyle_ranunculoides"])
+fnPhyloDiversity(tree,sample)
+fnPhyloDiversity(tree,sample,includeRoot=False)
+fnPhyloDiversity(tree,sample,includeRoot=FALSE)
+fnPhyloDiversity(tree,sample,includeRoot=TRUE)
+sample = clade(["Hydrocotyle_umbellata"])
+fnPhyloDiversity(tree,sample,includeRoot=FALSE)
+sample = clade(["Hydrocotyle_ranunculoides"])
+fnPhyloDiversity(tree,sample,includeRoot=FALSE)
+sample = clade(["Hydrocotyle_umbellata","Hydrocotyle_ranunculoides"])
+fnPhyloDiversity(tree,sample,includeRoot=FALSE)
+sample = clade(["Hydrocotyle_ranunculoides"])
+fnPhyloDiversity(tree,sample,includeRoot=TRUE)
+t = readTrees("test.tree")[1]
+t
+s = clade(["a"])
+fnPhyloDiversity(t,s,includeRoot=FALSE)
+fnPhyloDiversity(t,s,includeRoot=TRUE)
+t = readTrees("test.tree")[1]
+t
+fnPhyloDiversity(t,s,includeRoot=FALSE)
+fnPhyloDiversity(t,s,includeRoot=TRUE)
+fnPhyloDiversity(t,clade(["a","b"]),includeRoot=TRUE)
+fnPhyloDiversity(t,clade(["a","b"]),includeRoot=FALSE)
+t = readTrees("test.tree")[1]
+fnPhyloDiversity(t,clade(["a","b"]),includeRoot=FALSE)
+fnPhyloDiversity(t,clade(["a","b"]),includeRoot=TRUE)
+t.methods()
+t.rootAge()
+t
+t = readTrees("test.tree")[1]
+fnPhyloDiversity(t,clade(["a","b"]),includeRoot=TRUE)
+fnPhyloDiversity(t,clade(["a","b"]),includeRoot=FALSE)
+fnPhyloDiversity(t,clade(["a"]),includeRoot=FALSE)
+fnPhyloDiversity(t,clade(["b"]),includeRoot=FALSE)
+q()
+t = readTrees("test.tree")[1]
+fnPhyloDiversity(t,clade(["b"]),includeRoot=FALSE)
+fnPhyloDiversity(t,clade(["b"]),includeRoot=TRUE)
+fnPhyloDiversity(t,clade(["b", "a"]),includeRoot=TRUE)
+fnPhyloDiversity(t,clade(["b", "a"]),includeRoot=FALSE)
+fnPhyloDiversity(t,clade(["b", "a"]))
+fnPhyloDiversity(t,clade(["b", "a","c"]))
+fnPhyloDiversity(t,clade(["b", "a","d"]))
+fnPhyloDiversity(t,clade(["d"]))
+fnPhyloDiversity(t,clade(["d","a"]))
+fnPhyloDiversity(t,clade(["d","a"]),includeRoot=TRUE)
+q()
+t = readTrees("test.tree")[1]
+fnPhyloDiversity(t,clade(["d","a"]),includeRoot=TRUE)
+fnPD(t,clade(["d","a"]),includeRoot=TRUE)
+fnPD(t,clade(["d","a"]),includeRoot=FALSE)
+q()
+t = readTrees("test.tree")[1]
+fnPD(t,clade(["d","a"]),includeRoot=FALSE)
+fnPD(t,clade(["d","a"]),includeRoot=TRUE)
+fnPD(t,clade(["b","a"]),includeRoot=TRUE)
+fnPD(t,clade(["b","a"]),includeRoot=FALSE)
+fnPD(t,clade(["b","c"]),includeRoot=FALSE)
+fnPD(t,clade(["b","c"]),includeRoot=TRUE)
+t.methods()
+reroot(t,"a")
+ls(all=TRUE)
+fnCpRev
+t = readTimeTrees("test.tree")[1]
+t = readBranchLengthTrees("test.tree")[1]
+t
+t = readTrees("test.tree")[1]
+t
+str(t)
+t
+s = readBranchLengthTrees("test.tree")[1]
+s
+str(s)
+s.methods()
+fnPD(s,clade(["b","c"]),includeRoot=TRUE)
+fnPD(s,clade(["a","b"]),includeRoot=TRUE)
+fnPD(s,clade(["a","b"]),includeRoot=FALSE)
+fnPD(s,clade(["a","d"]),includeRoot=FALSE)
+fnPD(s,clade(["a","d"]),includeRoot=TRUE)
+fnPD(s,clade(["b","d"]),includeRoot=TRUE)
+fnPD(s,clade(["b","d"]),includeRoot=FALSE)
+fnPD(s,clade(["b","d","a"]),includeRoot=FALSE)
+s.reroot("a")
+s.root("a")
+s.reroot
+)_
+s.reroot()
+s.reroot("a")
+s.names
+()
+s.names()
+s.reroot("c")
+s.nnodes()
+s.branchLength()
+s.branchLength(d)
+s.branchLength(3)
+q()

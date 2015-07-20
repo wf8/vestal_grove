@@ -1,0 +1,201 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=109;
+	taxlabels
+	Coreopsis_tripteris
+	Symphyotrichum_ericoides
+	Symphyotrichum_novae-angliae
+	Euthamia_graminifolia
+	Solidago_caesia
+	Solidago_ulmifolia
+	Solidago_juncea
+	Solidago_gigantea
+	'Solidago_canadensis_var._scabra'
+	Solidago_rigida
+	Nabalus_albus
+	Taraxacum_officinale
+	Cirsium_altissimum
+	Cirsium_arvense
+	Vernonia_gigantea
+	Juncus_tenuis
+	Juncus_dudleyi
+	Carex_rosea
+	'Carex_tenera_var._tenera'
+	Carex_cristatella
+	Carex_cephalophora
+	Carex_blanda
+	Carex_pensylvanica
+	Bromus_latiglumis
+	Bromus_pubescens
+	Elymus_virginicus
+	Elymus_hystrix
+	Sphenopholis_intermedia
+	Cinna_arundinacea
+	Poa_compressa
+	'Poa_pratensis_subsp._alpigena'
+	Brachyelytrum_erectum
+	Glyceria_striata
+	Panicum_virgatum
+	'Muhlenbergia_mexicana_var._filiformis'
+	Alisma_triviale
+	Trillium_grandiflorum
+	Trillium_recurvatum
+	Camassia_scilloides
+	Maianthemum_stellatum
+	Maianthemum_racemosum
+	Allium_tricoccum
+	Allium_canadense
+	Allium_cernuum
+	Lilium_michiganense
+	Arisaema_triphyllum
+	Smilax_lasioneura
+	Uvularia_grandiflora
+	Thalictrum_dioicum
+	Thalictrum_dasycarpum
+	Thalictrum_revolutum
+	Aquilegia_canadensis
+	Anemone_virginiana
+	Actaea_pachypoda
+	Ranunculus_septentrionalis
+	Sanguinaria_canadensis
+	Triosteum_perfoliatum
+	Cornus_racemosa
+	Galium_aparine
+	Lithospermum_latifolium
+	Hackelia_virginiana
+	Lespedeza_virginica
+	Amphicarpaea_bracteata
+	Acer_saccharinum
+	Toxicodendron_radicans
+	Oxalis_stricta
+	Hypericum_punctatum
+	Hypericum_perforatum
+	Geum_canadense
+	Rubus_flagellaris
+	Rubus_occidentalis
+	Rosa_blanda
+	'Fragaria_virginiana_subsp._virginiana'
+	Potentilla_recta
+	Malus_sieboldii
+	Rhamnus_cathartica
+	Iodanthus_pinnatifidus
+	Cardamine_concatenata
+	Persicaria_virginiana
+	Impatiens_capensis
+	Pycnanthemum_tenuifolium
+	Pycnanthemum_virginianum
+	Monarda_fistulosa
+	Penstemon_digitalis
+	Chelone_glabra
+	Pedicularis_canadensis
+	Agalinis_tenuifolia
+	Verbena_urticifolia
+	Plantago_rugelii
+	Veronicastrum_virginicum
+	Eryngium_yuccifolium
+	Cuscuta_glomerata
+	Heracleum_maximum
+	Taenidia_integerrima
+	Zizia_aurea
+	Cryptotaenia_canadensis
+	Oxypolis_rigidior
+	'Cicuta_maculata_var._victorinii'
+	Perideridia_americana
+	Silene_stellata
+	Eupatorium_perfoliatum
+	Eupatorium_serotinum
+	Eupatorium_altissimum
+	Liatris_spicata
+	Eutrochium_purpureum
+	Helianthus_strumosus
+	Helianthus_grosseserratus
+	Helianthus_divaricatus
+	Helianthus_decapetalus
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((Coreopsis_tripteris[&!color=#-16722926]:0.12589198540148966,((((Symphyotrichum_ericoides[&!color=#-16722926]:0.015847421677809153,Symphyotrichum_novae-angliae[&!color=#-16722926]:0.0077870168918520895)[&!color=#-16722926,label=99]:0.03453715765052413,(Euthamia_graminifolia[&!color=#-16722926]:0.035661583105589034,((Solidago_caesia[&!color=#-16722926]:0.0030737766680728413,(Solidago_ulmifolia[&!color=#-16722926]:0.004594332215929292,(Solidago_juncea[&!color=#-16722926]:0.0030720068085160297,(Solidago_gigantea[&!color=#-16722926]:1.14655848905106E-6,'Solidago_canadensis_var._scabra'[&!color=#-16722926]:0.0015362888901764608)[&!color=#-16722926,label=55]:1.14655848905106E-6)[&!color=#-16722926,label=86]:0.004610320391082583)[&!color=#-16722926,label=58]:1.14655848905106E-6)[&!color=#-16722926,label=50]:0.001527979520650394,Solidago_rigida[&!color=#-16722926]:1.14655848905106E-6)[&!color=#-16722926,label=98]:0.02830868563812598)[&!color=#-16722926,label=90]:0.026391942824355665)[&!color=#-16722926,label=100]:0.1723011269411486,(((Nabalus_albus[&!color=#-16722926]:0.03143751675526902,Taraxacum_officinale[&!color=#-16722926]:0.09510735600488503)[&!color=#-16722926,label=100]:0.12074405518801373,(Cirsium_altissimum[&!color=#-16722926]:0.016259011912992127,Cirsium_arvense[&!color=#-16722926]:0.031208703004651082)[&!color=#-16722926,label=100]:0.13829608784023234)[&!color=#-16722926,label=85]:0.050356680931956055,(Vernonia_gigantea[&!color=#-16722926]:0.4922244494055665,(((((((((Juncus_tenuis[&!color=#-16776259]:0.002090602592238912,Juncus_dudleyi[&!color=#-16776259]:1.14655848905106E-6)[&!color=#-16776259,label=100]:0.40800983336690305,((Carex_rosea[&!color=#-16776259]:0.03069975687177937,(('Carex_tenera_var._tenera'[&!color=#-16776259]:0.005716320369984533,Carex_cristatella[&!color=#-16776259]:1.14655848905106E-6)[&!color=#-16776259,label=98]:0.03829762438983995,Carex_cephalophora[&!color=#-16776259]:0.02863297404965206)[&!color=#-16776259,label=86]:0.023634833271653756)[&!color=#-16776259,label=82]:0.026885786800726272,(Carex_blanda[&!color=#-16776259]:0.044364543879166815,Carex_pensylvanica[&!color=#-16776259]:0.04144703858914486)[&!color=#-16776259,label=89]:0.031265245683785976)[&!color=#-16776259,label=100]:0.44477249808990243)[&!color=#-16776259,label=99]:0.3422181240271847,((((((Bromus_latiglumis[&!color=#-16776259]:0.0019570003410013855,Bromus_pubescens[&!color=#-16776259]:0.001820430477113577)[&!color=#-16776259,label=100]:0.06951544922081516,(Elymus_virginicus[&!color=#-16776259]:0.00802369820575431,Elymus_hystrix[&!color=#-16776259]:0.03376133856158735)[&!color=#-16776259,label=100]:0.02467866347650688)[&!color=#-16776259,label=99]:0.03760955353898629,(Sphenopholis_intermedia[&!color=#-16776259]:0.06504087778540182,(Cinna_arundinacea[&!color=#-16776259]:0.03443540788581996,(Poa_compressa[&!color=#-16776259]:0.03308812492465471,'Poa_pratensis_subsp._alpigena'[&!color=#-16776259]:0.013496638680305562)[&!color=#-16776259,label=99]:0.027942725073141668)[&!color=#-16776259,label=95]:0.02846627161599268)[&!color=#-16776259,label=97]:0.0319809159256294)[&!color=#-16776259,label=97]:0.054331532809277466,(Brachyelytrum_erectum[&!color=#-16776259]:0.1540868816021527,Glyceria_striata[&!color=#-16776259]:0.1891877019488592)[&!color=#-16776259,label=31]:0.011629106337902045)[&!color=#-16776259,label=76]:0.08475305873727769,(Panicum_virgatum[&!color=#-16776259]:0.12395693045152922,'Muhlenbergia_mexicana_var._filiformis'[&!color=#-16776259]:0.2393263195007019)[&!color=#-16776259,label=98]:0.16795321143657027)[&!color=#-16776259,label=100]:0.4762321068797024,(Alisma_triviale[&!color=#-16776259]:0.8273517177937488,(((Trillium_grandiflorum[&!color=#-16776259]:0.02686464748021918,Trillium_recurvatum[&!color=#-16776259]:0.021848102648804275)[&!color=#-16776259,label=100]:0.6932289405115638,((Camassia_scilloides[&!color=#-16776259]:0.1486002784536452,(Maianthemum_stellatum[&!color=#-16776259]:0.030201531893706418,Maianthemum_racemosum[&!color=#-16776259]:0.033900528489167206)[&!color=#-16776259,label=100]:0.15301008424856472)[&!color=#-16776259,label=100]:0.2941198284288746,(Allium_tricoccum[&!color=#-16776259]:0.3154008742530875,(Allium_canadense[&!color=#-16776259]:0.0811043265199143,Allium_cernuum[&!color=#-16776259]:0.07403454685298613)[&!color=#-16776259,label=95]:0.07712230359301453)[&!color=#-16776259,label=100]:0.6424497670992054)[&!color=#-16776259,label=49]:0.047835329155989745)[&!color=#-16776259,label=36]:0.041535804405398016,Lilium_michiganense[&!color=#-16776259]:0.6294045650274509)[&!color=#-16776259,label=15]:0.01840354866157765)[&!color=#-16776259,label=19]:0.02501496372187619)[&!color=#-16776259,label=46]:0.07043088722333894)[&!color=#-16776259,label=47]:0.05973755193058952,(Arisaema_triphyllum[&!color=#-16776259]:0.5890800917409202,(Smilax_lasioneura[&!color=#-16776259]:0.44837711622163573,Uvularia_grandiflora[&!color=#-16776259]:0.2615410833576)[&!color=#-16776259,label=85]:0.1288268744503113)[&!color=#-16776259,label=44]:0.10114084094781131)[&!color=#-16777216,label=95]:0.13365599306602458,((((Thalictrum_dioicum[&!color=#-16722926]:0.0283606068956039,(Thalictrum_dasycarpum[&!color=#-16722926]:1.14655848905106E-6,Thalictrum_revolutum[&!color=#-16722926]:0.0018430169399295193)[&!color=#-16722926,label=100]:0.04297568037914672)[&!color=#-16722926,label=95]:0.03364922177249051,Aquilegia_canadensis[&!color=#-16722926]:0.05721792435186864)[&!color=#-16722926,label=97]:0.11883566989220838,(Anemone_virginiana[&!color=#-16722926]:0.19053838569126205,(Actaea_pachypoda[&!color=#-16722926]:0.18597003127698955,Ranunculus_septentrionalis[&!color=#-16722926]:0.25525348530877456)[&!color=#-16722926,label=95]:0.1803324279729843)[&!color=#-16722926,label=54]:0.12761446440841925)[&!color=#-16722926,label=99]:0.2902563645272208,Sanguinaria_canadensis[&!color=#-16722926]:0.6556069938681744)[&!color=#-16722926,label=34]:0.0758323402986108)[&!color=#-16722926,label=20]:0.05909759372529009,(Triosteum_perfoliatum[&!color=#-16722926]:0.26502801874570675,Cornus_racemosa[&!color=#-16722926]:0.3875275564929616)[&!color=#-16722926,label=38]:0.06559836563158705)[&!color=#-16722926,label=4]:0.04181897179667826,((Galium_aparine[&!color=#-16722926]:0.4926941698800063,(Lithospermum_latifolium[&!color=#-16722926]:0.15389533747186804,Hackelia_virginiana[&!color=#-16722926]:0.13697650824928054)[&!color=#-16722926,label=100]:0.2962975351687595)[&!color=#-16722926,label=74]:0.16635732684039878,(((((Lespedeza_virginica[&!color=#-16722926]:0.2917640716612815,Amphicarpaea_bracteata[&!color=#-16722926]:0.1756819430677547)[&!color=#-16722926,label=100]:0.6027866471980068,((Acer_saccharinum[&!color=#-16722926]:0.16417533162267875,Toxicodendron_radicans[&!color=#-16722926]:0.25849546874072016)[&!color=#-16722926,label=86]:0.08794493546255906,Oxalis_stricta[&!color=#-16722926]:0.3465426168045975)[&!color=#-16722926,label=44]:0.026643276194522964)[&!color=#-16722926,label=51]:0.05801243161724165,(Hypericum_punctatum[&!color=#-16722926]:0.01735528843955893,Hypericum_perforatum[&!color=#-16722926]:0.01728648219654448)[&!color=#-16722926,label=100]:0.6746255280331012)[&!color=#-16722926,label=34]:0.017481527763211074,((((Geum_canadense[&!color=#-16722926]:0.1252751834321457,((Rubus_flagellaris[&!color=#-16722926]:0.014118886682628048,Rubus_occidentalis[&!color=#-16722926]:0.018842363435616207)[&!color=#-16722926,label=99]:0.049364907610332104,(Rosa_blanda[&!color=#-16722926]:0.024239569057332364,('Fragaria_virginiana_subsp._virginiana'[&!color=#-16722926]:0.0948759878394339,Potentilla_recta[&!color=#-16722926]:0.06484266076067186)[&!color=#-16722926,label=93]:0.05120863450463811)[&!color=#-16722926,label=79]:0.04170965844947542)[&!color=#-16722926,label=44]:0.028026514331495125)[&!color=#-16722926,label=86]:0.06776564580085033,Malus_sieboldii[&!color=#-16722926]:0.4496533840280384)[&!color=#-16722926,label=100]:0.1533876516196079,Rhamnus_cathartica[&!color=#-16722926]:0.2779001178345636)[&!color=#-16722926,label=65]:0.09863111555930548,(Iodanthus_pinnatifidus[&!color=#-16722926]:0.021035343871958764,Cardamine_concatenata[&!color=#-16722926]:0.04977298298150749)[&!color=#-16722926,label=100]:0.49944500195397024)[&!color=#-16722926,label=56]:0.06223082651608015)[&!color=#-16722926,label=89]:0.1303040161438814,((Persicaria_virginiana[&!color=#-16722926]:0.5584801561829758,Impatiens_capensis[&!color=#-16722926]:0.7377650857801573)[&!color=#-16722926,label=9]:0.0024656184916479248,((((Pycnanthemum_tenuifolium[&!color=#-16722926]:0.0018858999659035038,Pycnanthemum_virginianum[&!color=#-16722926]:1.14655848905106E-6)[&!color=#-16722926,label=100]:0.02315467201677227,Monarda_fistulosa[&!color=#-16722926]:0.0234681132649822)[&!color=#-16722926,label=100]:0.16051925696272928,((Penstemon_digitalis[&!color=#-16722926]:0.021949331910062264,Chelone_glabra[&!color=#-16722926]:0.04551423312860521)[&!color=#-16722926,label=100]:0.1596628615463467,((Pedicularis_canadensis[&!color=#-16722926]:0.10464268304726101,Agalinis_tenuifolia[&!color=#-16722926]:0.12616216232133728)[&!color=#-16722926,label=98]:0.11908066546893165,Verbena_urticifolia[&!color=#-16722926]:0.1833633315618141)[&!color=#-16722926,label=50]:0.046184938034748664)[&!color=#-16722926,label=82]:0.06038788661723293)[&!color=#-16722926,label=94]:0.10959458145606829,(Plantago_rugelii[&!color=#-16722926]:0.17255178063545443,Veronicastrum_virginicum[&!color=#-16722926]:0.14468632912796572)[&!color=#-16722926,label=100]:0.2284436674288014)[&!color=#-16722926,label=76]:0.054499422262021174)[&!color=#-16722926,label=12]:0.035904297788148465)[&!color=#-16722926,label=13]:0.019384118660407446)[&!color=#-16722926,label=4]:0.024207611408659603)[&!color=#-16722926,label=1]:0.009027782737519202,(Eryngium_yuccifolium[&!color=#-16722926]:0.3892216588094855,(Cuscuta_glomerata[&!color=#-16722926]:0.8564609077747372,((Heracleum_maximum[&!color=#-16722926]:0.09050148875736706,(Taenidia_integerrima[&!color=#-16722926]:0.04621102966172735,Zizia_aurea[&!color=#-16722926]:0.020541721223264534)[&!color=#-16722926,label=100]:0.05984740799633496)[&!color=#-16722926,label=98]:0.06589123220746919,((Cryptotaenia_canadensis[&!color=#-16722926]:0.04988567003170264,(Oxypolis_rigidior[&!color=#-16722926]:0.06256288971387555,'Cicuta_maculata_var._victorinii'[&!color=#-16722926]:0.03406757773519811)[&!color=#-16722926,label=44]:0.007239618993246782)[&!color=#-16722926,label=61]:0.01527317836140294,Perideridia_americana[&!color=#-16722926]:0.10858518052930094)[&!color=#-16722926,label=95]:0.0560996989732423)[&!color=#-16722926,label=98]:0.1396303738014621)[&!color=#-16722926,label=44]:0.09884194237461844)[&!color=#-16722926,label=14]:0.09873761750811738)[&!color=#-16722926,label=44]:0.10050494390292364,Silene_stellata[&!color=#-16722926]:0.4544926635652028)[&!color=#-16722926,label=97]:0.11050815998455062)[&!color=#-16722926,label=69]:0.031390718006142904)[&!color=#-16722926,label=40]:0.019841375500451123)[&!color=#-16722926,label=100]:0.10912307173815709,((Eupatorium_perfoliatum[&!color=#-16722926]:0.00938272759071033,(Eupatorium_serotinum[&!color=#-16722926]:0.0066379081918530305,Eupatorium_altissimum[&!color=#-16722926]:0.0236585655596575)[&!color=#-16722926,label=92]:0.004768386630898361)[&!color=#-16722926,label=97]:0.023188979757126967,(Liatris_spicata[&!color=#-16722926]:0.0815088491002624,Eutrochium_purpureum[&!color=#-16722926]:0.014839745244604277)[&!color=#-16722926,label=90]:0.02383955644244651)[&!color=#-16722926,label=100]:0.1648476548369017)[&!color=#-16722926,label=64]:0.029025323047678707)[&!color=#-16722926,label=100]:0.09166719563541023,(Helianthus_strumosus[&!color=#-16722926]:0.02546315193970499,(Helianthus_grosseserratus[&!color=#-16722926]:1.14655848905106E-6,Helianthus_divaricatus[&!color=#-16722926]:1.14655848905106E-6)[&!color=#-16722926,label=90]:0.0015081945568166247)[&!color=#-16722926,label=58]:0.002515988398064792,Helianthus_decapetalus[&!color=#-16722926]:0.0019786128891708717);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2137417319;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="POLAR";
+	set layout.zoom=158;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

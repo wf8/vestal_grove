@@ -1,0 +1,1 @@
+raxmlHPC-HYBRID -s infile -N autoMRE -n result  -f a -p 12345 -x 12345 -m GTRCATI
