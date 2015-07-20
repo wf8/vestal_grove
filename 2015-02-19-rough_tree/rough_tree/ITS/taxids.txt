@@ -1,0 +1,149 @@
+Helianthus_strumosus	382522
+Solidago_altissima	59294
+Zizia_aurea	40947
+Solidago_ulmifolia	691053
+Arisaema_triphyllum	78371
+Eupatorium_purpureum	102766
+Leersia_virginica	38706
+Helianthus_decapetalus	73283
+Amphicarpaea_bracteata	45679
+Fragaria_virginiana	101015
+Smilax_lasioneura	299608
+Rudbeckia_subtomentosa	52307
+Allium_canadense	472403
+Thalictrum_revolutum	46972
+Triosteum_perfoliatum	105270
+Penstemon_digitalis	265135
+Polygonatum_canaliculatum	not found
+Impatiens_capensis	55378
+Camassia_scilloides	39524
+Smilacina_racemosa	39530
+Eupatorium_rugosum	102750
+Carex_blanda	69851
+Geranium_maculatum	not found
+Eupatorium_perfoliatum	102777
+Smilax_ecirrhata	1291630
+Cinna_arundinacea	568985
+Silene_stellata	200593
+Rhamnus_cathartica	3610
+Ranunculus_septentrionalis	568572
+Viola_sororia	13758
+Bromus_latiglumis	254136
+Cuscuta_glomerata	113197
+Trillium_recurvatum	82495
+Aster_lateriflorus	not found
+Arisaema_dracontium	227496
+Solidago_graminifolia_nuttallii	not found
+Circaea_lutetiana_canadensis	not found
+Sanguinaria_canadensis	3472
+Oxypolis_rigidior	178701
+Muhlenbergia_mexicana	946647
+Rubus_flagellaris	190224
+Lithospermum_latifolium	475905
+Aster_novae-angliae	55612
+Pycnanthemum_virginianum	392642
+Taraxacum_officinale	50225
+Vitis_riparia	96939
+Carex_tenera	314416
+Allium_cernuum	70754
+Helianthus_divaricatus	73285
+Helianthus_grosseserratus	73291
+Verbena_urticifolia	140036
+Potentilla_simplex	667283
+Thalictrum_dioicum	46970
+Rhus_radicans	43853
+Eryngium_yuccifolium	90460
+Pycnanthemum_tenuifolium	751853
+Aster_shortii	not found
+Solidago_caesia	471148
+Carex_pensylvanica	69862
+Glyceria_striata	37677
+Elymus_villosus	not found
+Tradescantia_ohiensis	77340
+Lycopus_americanus	932105
+Hystrix_patula	145781
+Aquilegia_canadensis	46964
+Juncus_dudleyi	308393
+Oxalis_europaea	213833
+Dentaria_laciniata	109596
+Aster_ericoides	481941
+Veronicastrum_virginicum	165346
+Coreopsis_tripteris	159685
+Monarda_fistulosa	39344
+Sphenopholis_intermedia	388721
+Floerkea_proserpinacoides	13531
+Prenanthes_alba	883017
+Cryptotaenia_canadensis	54828
+Hypericum_pyramidatum	not found
+Smilacina_stellata	191661
+Aster_praealtus	not found
+Juncus_tenuis	932103
+Cornus_racemosa	4284
+Agalinis_tenuifolia	282244
+Lythrum_alatum	not found
+Solidago_graminifolia	72935
+Cirsium_arvense	41550
+Carex_cristatella	314410
+Malus_sieboldii	106566
+Acer_saccharinum	75745
+Boehmeria_cylindrica	not found
+Anemone_virginiana	168008
+Hackelia_virginiana	1452876
+Heliopsis_helianthoides	53723
+Poa_compressa	269373
+Brachyelytrum_erectum	38700
+Panicum_virgatum	38727
+Geum_canadense	350588
+Elymus_virginicus	145780
+Lespedeza_virginica	701553
+Quercus_coccinea	354624
+Aster_sagittifolius_drummondii	not found
+Hypericum_perforatum	65561
+Solidago_gigantea	330183
+Alliaria_petiolata	126270
+Hypericum_punctatum	269017
+Carex_davisii	912412
+Thalictrum_dasycarpum	46973
+Dioscorea_villosa	330167
+Potentilla_recta	538583
+Iodanthus_pinnatifidus	359856
+Heracleum_maximum	40918
+Hydrophyllum_virginianum	4134
+Actaea_pachypoda	64023
+Gentiana_flavida	not found
+Taenidia_integerrima	48059
+Agrostis_alba	29659
+Rubus_occidentalis	75079
+Eupatorium_serotinum	103756
+Solidago_rigida	199521
+Solidago_juncea	330184
+Rudbeckia_triloba	52309
+Eupatorium_altissimum	102769
+Smilax_illinoensis	1291631
+Festuca_obtusa	not found
+Galium_triflorum	715723
+Alisma_triviale	365734
+Galium_aparine	29788
+Carex_rosea	312766
+Carex_cephalophora	100277
+Polygonum_virginianum	46788
+Vernonia_altissima	211149
+Phlox_glaberrima_interior	not found
+Rosa_blanda	74640
+Lilium_michiganense	84049
+Ambrosia_artemisiifolia_elatior	not found
+Trillium_grandiflorum	55186
+Elymus_riparius	145779
+Parthenocissus_inserta	345125
+Allium_tricoccum	138334
+Poa_pratensis	4545
+Lobelia_spicata	1441989
+Liatris_spicata	886939
+Pedicularis_canadensis	1325716
+Plantago_rugelii	101993
+Perideridia_americana	234853
+Bromus_pubescens	254147
+Uvularia_grandiflora	49460
+Cicuta_maculata	178650
+Cirsium_altissimum	1308046
+Chelone_glabra	262425

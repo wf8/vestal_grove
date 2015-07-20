@@ -1,0 +1,67 @@
+
+# read in data
+data <- readDiscreteCharacterData("data/aligned_concatenated.fasta")
+
+n_species <- data.ntaxa()
+n_sites <- data.nchar()
+names <- data.names()
+n_branches <- 2 * n_species - 3
+
+mi = 0
+
+# uniform prior on the tree topology 
+topology ~ dnUniformTopology(names)
+
+# moves on the tree
+moves[++mi] = mvNNI(topology, weight=10)
+moves[++mi] = mvSPR(topology, weight=5)
+
+# prior and moves on the branch lengths
+for (i in 1:n_branches) {
+    br_lens[i] ~ dnExponential(10.0)
+    moves[++mi] = mvScale(br_lens[i])
+}
+
+TL := sum(br_lens)
+
+phylogeny := treeAssembly(topology, br_lens)
+
+clockRate <- 1.0
+
+# GTR+gamma substitution model 
+er_prior <- v(1,1,1,1,1,1)
+er ~ dnDirichlet(er_prior)
+moves[++mi] = mvSimplexElementScale(er, weight=3)
+
+pi_prior <- v(1,1,1,1) 
+pi ~ dnDirichlet(pi_prior)
+moves[++mi] = mvSimplexElementScale(pi, weight=2)
+Q := fnGTR(er, pi) 
+
+# among site rate variation 
+alpha_prior <- 0.05
+alpha ~ dnExponential( alpha_prior )
+gamma_rates := fnDiscretizeGamma(alpha, alpha, 8, false )
+moves[++mi] = mvScale(alpha, weight=2)
+
+# CTMC for each gene
+seq ~ dnPhyloCTMC(tree=phylogeny, Q=Q, siteRates=gamma_rates, branchRates=clockRate, type="DNA")
+
+# clamp alignment
+seq.clamp(data)
+
+mymodel = model(phylogeny)
+
+monitors[1] = mnModel(filename="output/undated.log", printgen=10)
+monitors[2] = mnFile(filename="output/undated.trees", printgen=10, phylogeny)
+monitors[3] = mnScreen(printgen=10, alpha, TL)
+
+mymcmc = mcmc(mymodel, monitors, moves)
+
+mymcmc.run(generations=1000000)
+
+#treetrace = readTreeTrace("output/undated.trees", treetype="non-clock")
+
+#treetrace.summarize()
+
+#mapTree(treetrace,"output/undated_MAP.tree")

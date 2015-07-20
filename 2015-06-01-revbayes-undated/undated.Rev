@@ -1,0 +1,79 @@
+
+# read in data
+data_ITS <- readDiscreteCharacterData("data/aligned_ITS_trimmed.fasta")
+data_rbcL <- readDiscreteCharacterData("data/aligned_rbcL_trimmed.fasta")
+data_matK <- readDiscreteCharacterData("data/aligned_matK_trimmed.fasta")
+data_trnLtrnF <- readDiscreteCharacterData("data/aligned_trnLF_trimmed.fasta")
+
+# concatenate data matrix
+data <- concatenate(data_ITS, data_rbcL, data_matK, data_trnLtrnF)
+#writeFasta(data, filename="data/aligned_concatenated.fasta")
+
+n_species <- data.ntaxa()
+n_sites <- data.nchar()
+names <- data.names()
+n_branches <- 2 * n_species - 3
+
+mi = 0
+
+# uniform prior on the tree topology 
+topology ~ dnUniformTopology(names)
+
+# moves on the tree
+moves[++mi] = mvNNI(topology, weight=10)
+moves[++mi] = mvSPR(topology, weight=5)
+
+# prior and moves on the branch lengths
+for (i in 1:n_branches) {
+    br_lens[i] ~ dnExponential(10.0)
+    moves[++mi] = mvScale(br_lens[i])
+}
+
+TL := sum(br_lens)
+
+phylogeny := treeAssembly(topology, br_lens)
+
+clockRate <- 1.0
+
+# GTR+gamma substitution model for each gene
+for (i in 1:4) {
+    er_prior[i] <- v(1,1,1,1,1,1)
+    er[i] ~ dnDirichlet(er_prior[i])
+    moves[++mi] = mvSimplexElementScale(er[i], weight=3)
+
+    pi_prior[i] <- v(1,1,1,1) 
+    pi[i] ~ dnDirichlet(pi_prior[i])
+    moves[++mi] = mvSimplexElementScale(pi[i], weight=2)
+    Q[i] := fnGTR(er[i], pi[i]) 
+
+    # among site rate variation 
+    alpha_prior <- 0.05
+    alpha[i] ~ dnExponential( alpha_prior )
+    gamma_rates[i] := fnDiscretizeGamma(alpha[i], alpha[i], 4, false )
+    moves[++mi] = mvScale(alpha[i], weight=2)
+    
+    # CTMC for each gene
+    seq[i] ~ dnPhyloCTMC(tree=phylogeny, Q=Q[i], siteRates=gamma_rates[i], branchRates=clockRate, type="DNA")
+}
+
+# clamp each alignment
+seq[1].clamp(data_ITS)
+seq[2].clamp(data_rbcL)
+seq[3].clamp(data_matK)
+seq[4].clamp(data_trnLtrnF)
+
+mymodel = model(phylogeny)
+
+monitors[1] = mnModel(filename="output/undated.log", printgen=10)
+monitors[2] = mnFile(filename="output/undated.trees", printgen=10, phylogeny)
+monitors[3] = mnScreen(printgen=10, alpha, TL)
+
+mymcmc = mcmc(mymodel, monitors, moves)
+
+mymcmc.run(generations=1000000)
+
+#treetrace = readTreeTrace("output/undated.trees", treetype="non-clock")
+
+#treetrace.summarize()
+
+#mapTree(treetrace,"output/undated_MAP.tree")
