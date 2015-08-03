@@ -26,10 +26,10 @@ for year in years:
         taxon = ''
         for species in species_list:
             words = species.split('"')
-            taxon = words[1]
+            taxon = words[1].strip().replace(' ', '_').replace('.', '')
             if ';' in taxon:
                 synonyms = taxon.split(';')
-                taxon = synonyms[0]
+                taxon = synonyms[0].strip().replace(' ', '_').replace('.', '')
             all_species += '"' + taxon + '",'
             if 'non-native' in words[2]:
                 nonnatives += '"' + taxon + '",'
