@@ -1,0 +1,543 @@
+"Vestal Grove All 2003"
+2015-08-02
+"Vestal Grove"
+
+
+
+
+"FQA DB Region:","Chicago Region USACE"
+"FQA DB Publication Year:",2014
+"FQA DB Description:","Herman, B., Sliwinski, R. and S. Whitaker. 2014. Chicago Region FQA (Floristic Quality Assessment) Calculator. U.S. Army Corps of Engineers, Chicago, IL. [Version 1.16.14]"
+
+Practitioner:,Stephen
+Latitude:,
+Longitude:,
+"Weather Notes:",
+"Duration Notes:",
+"Community Type Notes:",
+"Other Notes:",
+Private/Public:,Private
+
+"Conservatism-Based Metrics:"
+"Total Mean C:",4.1
+"Native Mean C:",4.4
+"Total FQI:",39.8
+"Native FQI:",41.3
+"Cover-weighted FQI:",38.8
+"Cover-weighted Native FQI:",40.3
+"Adjusted FQI:",42.6
+"% C value 0:",7.4
+"% C value 1-3:",28.7
+"% C value 4-6:",46.8
+"% C value 7-10:",17
+
+"Species Richness:"
+"Total Species:",94
+"Native Species:",88,93.6%
+"Non-native Species:",6,6.4%
+
+"Species Wetness:"
+"Mean Wetness:",0.5
+"Native Mean Wetness:",0.5
+
+"Duration Metrics:"
+Annual:,4,4.3%
+Perennial:,86,91.5%
+Biennial:,4,4.3%
+"Native Annual:",4,4.3%
+"Native Perennial:",82,87.2%
+"Native Biennial:",2,2.1%
+
+"Physiognomic Relative Importance Values:"
+Physiognomy,Frequency,Coverage,"Relative Frequency (%)","Relative Coverage (%)","Relative Importance Value"
+"Native forb",214,1903,227.7,67.2,147.5
+"Native shrub",17,205,18.1,7.2,12.7
+"Non-native shrub",13,316,13.8,11.2,12.5
+"Native grass",17,158,18.1,5.6,11.9
+"Native vine",11,53,11.7,1.9,6.8
+"Native sedge",8,98,8.5,3.5,6
+"Non-native forb",8,49,8.5,1.7,5.1
+"Native tree",8,40,8.5,1.4,5
+"Non-native tree",3,9,3.2,0.3,1.8
+
+"Species Relative Importance Values:"
+Species,Family,Acronym,Nativity,C,W,Physiognomy,Duration,Frequency,Coverage,"Relative Frequency (%)","Relative Coverage (%)","Relative Importance Value"
+"Solidago altissima",Asteraceae,SOLALT,native,1,1,forb,perennial,14,334,4.7,11.8,8.3
+"Rhamnus cathartica",Rhamnaceae,RHACAT,non-native,0,0,shrub,perennial,13,316,4.3,11.2,7.8
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,native,2,0,forb,perennial,13,136,4.3,4.8,4.6
+"Arisaema triphyllum",Araceae,ARITRI,native,4,-1,forb,perennial,13,102,4.3,3.6,4
+"Solidago ulmifolia",Asteraceae,SOLULM,native,5,2,forb,perennial,11,115,3.7,4.1,3.9
+"Helianthus hirsutus",Asteraceae,HELHIR,native,5,2,forb,perennial,9,127,3,4.5,3.8
+"Zizia aurea",Apiaceae,ZIZAUR,native,7,0,forb,perennial,8,100,2.7,3.5,3.1
+"Leersia virginica",Poaceae,LEEVIR,native,7,-1,grass,perennial,7,109,2.3,3.9,3.1
+"Rubus occidentalis",Rosaceae,RUBOCC,native,2,2,shrub,perennial,6,100,2,3.5,2.8
+"Ranunculus hispidus var. nitidus; ranunculus septentrionalis",Ranunculaceae,RANHISN,native,5,0,forb,perennial,6,96,2,3.4,2.7
+"Eutrochium purpureum; eupatorium purpureum",Asteraceae,EUPPUR,native,7,0,forb,perennial,9,68,3,2.4,2.7
+"Allium canadense",Liliaceae,ALLCAN,native,2,1,forb,perennial,7,82,2.3,2.9,2.6
+"Rubus flagellaris; rubus enslenii",Rosaceae,RUBENS,native,3,1,shrub,perennial,5,85,1.7,3,2.4
+"Impatiens capensis",Balsaminaceae,IMPCAP,native,3,-1,forb,annual,8,29,2.7,1,1.9
+"Geranium maculatum",Geraniaceae,GERMAC,native,4,1,forb,perennial,7,35,2.3,1.2,1.8
+"Potentilla simplex; potentilla simplex argyrisma",Rosaceae,POTSIM,native,4,1,forb,perennial,7,28,2.3,1,1.7
+"Carex pensylvanica",Cyperaceae,CXPENS,native,5,2,sedge,perennial,3,68,1,2.4,1.7
+"Arisaema dracontium",Araceae,ARIDRA,native,7,-1,forb,perennial,7,22,2.3,0.8,1.6
+"Thalictrum dioicum",Ranunculaceae,THADIO,native,7,1,forb,perennial,5,33,1.7,1.2,1.5
+"Geum canadense",Rosaceae,GEUCAN,native,1,0,forb,perennial,6,19,2,0.7,1.4
+"Alliaria petiolata",Brassicaceae,ALLPET,non-native,0,0,forb,biennial,4,41,1.3,1.4,1.4
+"Cryptotaenia canadensis",Apiaceae,CRYCAN,native,2,0,forb,perennial,2,52,0.7,1.8,1.3
+"Allium cernuum",Liliaceae,ALLCER,native,7,1,forb,perennial,3,45,1,1.6,1.3
+"Monarda fistulosa",Lamiaceae,MONFIS,native,4,1,forb,perennial,4,35,1.3,1.2,1.3
+"Cirsium altissimum",Asteraceae,CIRALT,native,6,2,forb,biennial,3,41,1,1.4,1.2
+"Carex blanda",Cyperaceae,CXBLAN,native,1,0,sedge,perennial,4,28,1.3,1,1.2
+"Symphyotrichum shortii; aster shortii",Asteraceae,ASTSHO,native,8,2,forb,perennial,4,26,1.3,0.9,1.1
+"Circaea canadensis; circaea lutetiana canadensis",Onagraceae,CIRCAN,native,1,1,forb,perennial,4,21,1.3,0.7,1
+"Penstemon digitalis",Scrophulariaceae,PENDIG,native,4,0,forb,perennial,4,21,1.3,0.7,1
+"Rudbeckia subtomentosa",Asteraceae,RUDSUB,native,9,1,forb,perennial,3,28,1,1,1
+"Symphyotrichum lateriflorum; aster lateriflorus",Asteraceae,ASTLAT,native,4,-1,forb,perennial,4,14,1.3,0.5,0.9
+"Fragaria virginiana",Rosaceae,FRAVIR,native,1,1,forb,perennial,4,13,1.3,0.5,0.9
+"Viola sororia",Violaceae,VIOSOR,native,3,0,forb,perennial,4,11,1.3,0.4,0.9
+"Camassia scilloides",Liliaceae,CAMSCI,native,6,0,forb,perennial,3,18,1,0.6,0.8
+"Ageratina altissima; eupatorium rugosum",Asteraceae,AGEALT,native,4,1,forb,perennial,2,25,0.7,0.9,0.8
+"Toxicodendron radicans; rhus radicans",Anacardiaceae,RHURAD,native,2,0,vine,perennial,3,10,1,0.4,0.7
+"Cornus racemosa",Cornaceae,CORRAC,native,1,0,shrub,perennial,3,9,1,0.3,0.7
+"Heliopsis helianthoides",Asteraceae,HELHEL,native,5,1,forb,perennial,1,30,0.3,1.1,0.7
+"Amphicarpaea bracteata",Fabaceae,AMPBRA,native,4,0,vine,annual,3,9,1,0.3,0.7
+"Cinna arundinacea",Poaceae,CINARU,native,5,-1,grass,perennial,3,8,1,0.3,0.7
+"Fraxinus pennsylvanica; fraxinus pennsylvanica subintegerrima",Oleaceae,FRAPEN,native,1,-1,tree,perennial,2,20,0.7,0.7,0.7
+"Malus toringa; malus sieboldii",Rosaceae,MALSIE,non-native,0,2,tree,perennial,3,9,1,0.3,0.7
+"Oxalis stricta; oxalis europaea",Oxalidaceae,OXAEUR,native,0,1,forb,perennial,3,8,1,0.3,0.7
+"Eutrochium maculatum; eupatorium maculatum",Asteraceae,EUPMAC,native,4,-2,forb,perennial,1,30,0.3,1.1,0.7
+"Silene stellata",Caryophyllaceae,SILSTE,native,6,2,forb,perennial,2,10,0.7,0.4,0.6
+"Bromus pubescens",Poaceae,BROPUB,native,5,1,grass,perennial,2,10,0.7,0.4,0.6
+"Allium burdickii ; allium tricoccum burdickii",Liliaceae,ALLBUR,native,6,2,forb,perennial,2,12,0.7,0.4,0.6
+"Maianthemum stellatum; smilacina stellata",Liliaceae,MAISTE,native,5,0,forb,perennial,3,5,1,0.2,0.6
+"Ostrya virginiana",Betulaceae,OSTVIR,native,5,1,tree,perennial,2,10,0.7,0.4,0.6
+"Taraxacum officinale",Asteraceae,TAROFF,non-native,0,1,forb,perennial,2,5,0.7,0.2,0.5
+"Prunus serotina",Rosaceae,PRUSER,native,1,1,tree,perennial,2,6,0.7,0.2,0.5
+"Vitis riparia",Vitaceae,VITRIP,native,2,-1,vine,perennial,1,20,0.3,0.7,0.5
+"Maianthemum racemosum; smilacina racemosa",Liliaceae,MAIRAC,native,3,1,forb,perennial,2,4,0.7,0.1,0.4
+"Ratibida pinnata",Asteraceae,RATPIN,native,4,2,forb,perennial,1,10,0.3,0.4,0.4
+"Smilax lasioneuron; smilax lasioneura",Smilacaceae,SMILAS,native,5,2,vine,perennial,2,2,0.7,0.1,0.4
+"Spartina pectinata",Poaceae,SPAPEC,native,4,-1,grass,perennial,1,10,0.3,0.4,0.4
+"Vernonia fasciculata",Asteraceae,VERFAS,native,5,-1,forb,perennial,1,10,0.3,0.4,0.4
+"Tradescantia ohiensis",Commelinaceae,TRAOHI,native,2,1,forb,perennial,1,15,0.3,0.5,0.4
+"Anemone virginiana",Ranunculaceae,ANEVIR,native,5,1,forb,perennial,2,2,0.7,0.1,0.4
+"Dioscorea villosa",Dioscoreaceae,DIOVIL,native,7,0,vine,perennial,1,10,0.3,0.4,0.4
+"Andropogon gerardii",Poaceae,ANDGER,native,5,0,grass,perennial,1,10,0.3,0.4,0.4
+"Rubus idaeus ssp. strigosus; rubus idaeus strigosus",Rosaceae,RUBIDAS,native,3,1,shrub,perennial,1,5,0.3,0.2,0.3
+"Packera paupercula; senecio pauperculus",Asteraceae,PACPAU,native,6,0,forb,perennial,1,8,0.3,0.3,0.3
+"Dasistoma macrophylla; seymeria macrophylla",Scrophulariaceae,DASMAC,native,8,1,forb,perennial,1,5,0.3,0.2,0.3
+"Hypericum ascyron; hypericum pyramidatum",Clusiaceae,HYPASC,native,10,0,forb,perennial,1,5,0.3,0.2,0.3
+"Symphyotrichum drummondii ; aster sagittifolius drummondii",Asteraceae,ASTSAGD,native,2,2,forb,perennial,1,5,0.3,0.2,0.3
+"Smilax ecirrhata",Smilacaceae,SMIECI,native,5,2,forb,perennial,1,5,0.3,0.2,0.3
+"Pycnanthemum virginianum",Lamiaceae,PYCVIR,native,5,-1,forb,perennial,1,8,0.3,0.3,0.3
+"Muhlenbergia mexicana",Poaceae,MUHMEX,native,5,-1,grass,perennial,1,5,0.3,0.2,0.3
+"Cardamine concatenata; dentaria laciniata",Brassicaceae,CARCON,native,5,1,forb,perennial,1,8,0.3,0.3,0.3
+"Helenium autumnale",Asteraceae,HELAUT,native,5,-1,forb,perennial,1,8,0.3,0.3,0.3
+"Viola pubescens",Violaceae,VIOPUB,native,5,1,forb,perennial,1,8,0.3,0.3,0.3
+"Symphyotrichum novae-angliae; aster novae-angliae",Asteraceae,ASTNOV,native,4,-1,forb,perennial,1,5,0.3,0.2,0.3
+"Lycopus americanus",Lamiaceae,LYCAME,native,5,-2,forb,perennial,1,8,0.3,0.3,0.3
+"Aquilegia canadensis",Ranunculaceae,AQUCAN,native,6,1,forb,perennial,1,5,0.3,0.2,0.3
+"Daucus carota",Apiaceae,DAUCAR,non-native,0,2,forb,biennial,1,2,0.3,0.1,0.2
+"Eurybia macrophylla; aster macrophyllus",Asteraceae,ASTMAC,native,8,1,forb,perennial,1,1,0.3,0,0.2
+"Elymus hystrix; hystrix patula",Poaceae,ELYHYS,native,5,1,grass,perennial,1,2,0.3,0.1,0.2
+"Carex cephalophora",Cyperaceae,CXCEPH,native,3,1,sedge,perennial,1,2,0.3,0.1,0.2
+"Nabalus albus; prenanthes alba",Asteraceae,NABALB,native,5,1,forb,perennial,1,1,0.3,0,0.2
+"Prunus virginiana",Rosaceae,PRUVIR,native,3,1,shrub,perennial,1,3,0.3,0.1,0.2
+"Menispermum canadense",Menispermaceae,MENCAN,native,6,0,vine,perennial,1,2,0.3,0.1,0.2
+"Dichanthelium acuminatum; panicum implicatum; panicum auburne; panicum lindheimeri; panicum praecocius; panicum subvillosum; panicum villosissimum; panicum villosissimum pseudopubescens",Poaceae,DICACU,native,2,0,grass,perennial,1,4,0.3,0.1,0.2
+"Cirsium discolor",Asteraceae,CIRDIS,native,2,1,forb,biennial,1,3,0.3,0.1,0.2
+"Rosa palustris",Rosaceae,ROSPAL,native,7,-2,shrub,perennial,1,3,0.3,0.1,0.2
+"Coreopsis tripteris",Asteraceae,CORTRI,native,5,0,forb,perennial,1,1,0.3,0,0.2
+"Helianthus maximilianii",Asteraceae,HELMAX,non-native,0,2,forb,perennial,1,1,0.3,0,0.2
+"Hedeoma pulegioides",Lamiaceae,HEDPUL,native,3,2,forb,annual,1,2,0.3,0.1,0.2
+"Carya ovata",Juglandaceae,CAROVT,native,5,1,tree,perennial,1,3,0.3,0.1,0.2
+"Solidago flexicaulis",Asteraceae,SOLFLE,native,7,1,forb,perennial,1,2,0.3,0.1,0.2
+"Quercus macrocarpa",Fagaceae,QUEMAC,native,5,0,tree,perennial,1,1,0.3,0,0.2
+"Trillium grandiflorum; trillium grandiflorum",Liliaceae,TRIGRA,native,8,2,forb,perennial,1,1,0.3,0,0.2
+"Bidens frondosa",Asteraceae,BIDFRO,native,1,-1,forb,annual,1,1,0.3,0,0.2
+"Uvularia grandiflora",Cohchicaceae,UVUGRA,native,7,2,forb,perennial,1,1,0.3,0,0.2
+
+"Quadrat Level Metrics:"
+Quadrat,"Species Richness","Native Species Richness","Total Mean C","Native Mean C","Total FQI","Native FQI","Cover-weighted FQI","Cover-weighted Native FQI","Adjusted FQI","Mean Wetness","Mean Native Wetness",Latitude,Longitude
+4,10,9,4.5,5,14.2,15,12.6,12.9,47.4,0.6,0.7,n/a,n/a
+5,15,15,4.7,4.7,18.2,18.2,16.7,16.7,47,0.1,0.1,n/a,n/a
+6,13,13,4.2,4.2,15.1,15.1,14.1,14.1,42,0.4,0.4,n/a,n/a
+7,8,7,3.4,3.9,9.6,10.3,11,10.3,36.5,0.1,0.1,n/a,n/a
+8,10,9,3.7,4.1,11.7,12.3,5.7,11.7,38.9,0.6,0.7,n/a,n/a
+9,17,16,3.8,4,15.7,16,10.7,15.2,38.8,0.5,0.5,n/a,n/a
+10,12,10,2.4,2.9,8.3,9.2,3.1,6,26.5,0.3,0.4,n/a,n/a
+11,16,13,3,3.7,12,13.3,8.4,9,33.4,0.3,0.2,n/a,n/a
+12,17,16,3.9,4.2,16.1,16.8,18.6,20.4,40.7,0.6,0.7,n/a,n/a
+13,21,20,4.7,4.9,21.5,21.9,16,15.7,47.8,1,0.9,n/a,n/a
+14,18,17,4.8,5.1,20.4,21,11.9,14,49.6,0.5,0.5,n/a,n/a
+15,14,14,4,4,15,15,13.5,13.5,40,0.3,0.3,n/a,n/a
+16,18,16,3.2,3.6,13.6,14.4,20.8,20.4,33.9,0.6,0.5,n/a,n/a
+17,18,17,3.1,3.3,13.2,13.6,13.2,13.2,32.1,0.3,0.4,n/a,n/a
+18,16,15,4.4,4.7,17.6,18.2,10.8,15.9,45.5,-0.4,-0.5,n/a,n/a
+19,8,8,4.6,4.6,13,13,11,11,46,0.9,0.9,n/a,n/a
+20,12,11,3.6,3.9,12.5,12.9,12.8,14.3,37.3,0.5,0.5,n/a,n/a
+21,12,11,3.3,3.6,11.4,11.9,10.7,14.6,34.5,0.8,0.9,n/a,n/a
+22,20,18,3.6,4,16.1,17,16.5,16.5,37.9,0.8,0.8,n/a,n/a
+23,24,20,3.3,3.9,16.2,17.4,15.7,16.5,35.6,0.7,0.6,n/a,n/a
+Average,15,13.8,3.8,4.1,14.6,15.1,12.7,14.1,39.6,0.5,0.5,n/a,n/a
+"Standard Deviation",4.2,3.8,0.7,0.6,3.3,3.2,4.1,3.4,6,0.3,0.3,n/a,n/a
+
+"Quadrat 4 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Allium canadense",Liliaceae,ALLCAN,8,native,2,1,forb,perennial,"meadow garlic; wild onion"
+"Elymus hystrix; hystrix patula",Poaceae,ELYHYS,2,native,5,1,grass,perennial,"eastern bottle-brush grass; bottlebrush grass"
+"Eutrochium purpureum; eupatorium purpureum",Asteraceae,EUPPUR,8,native,7,0,forb,perennial,"sweet-scented joe-pye-weed; purple joe pye weed"
+"Leersia virginica",Poaceae,LEEVIR,3,native,7,-1,grass,perennial,"white grass"
+"Ranunculus hispidus var. nitidus; ranunculus septentrionalis",Ranunculaceae,RANHISN,30,native,5,0,forb,perennial,"bristly buttercup; swamp buttercup"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,8,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Silene stellata",Caryophyllaceae,SILSTE,4,native,6,2,forb,perennial,"starry campion"
+"Solidago altissima",Asteraceae,SOLALT,30,native,1,1,forb,perennial,"tall goldenrod"
+"Solidago ulmifolia",Asteraceae,SOLULM,5,native,5,2,forb,perennial,"elm-leaf goldenrod; elm-leaved goldenrod"
+"Zizia aurea",Apiaceae,ZIZAUR,20,native,7,0,forb,perennial,"golden alexanders"
+
+"Quadrat 5 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Allium canadense",Liliaceae,ALLCAN,20,native,2,1,forb,perennial,"meadow garlic; wild onion"
+"Arisaema dracontium",Araceae,ARIDRA,1,native,7,-1,forb,perennial,"greendragon; green dragon"
+"Camassia scilloides",Liliaceae,CAMSCI,5,native,6,0,forb,perennial,"atlantic camas; wild hyacinth"
+"Cinna arundinacea",Poaceae,CINARU,2,native,5,-1,grass,perennial,"sweet wood-reed; common wood reed"
+"Cryptotaenia canadensis",Apiaceae,CRYCAN,50,native,2,0,forb,perennial,"canadian honewort; honewort"
+"Eutrochium purpureum; eupatorium purpureum",Asteraceae,EUPPUR,5,native,7,0,forb,perennial,"sweet-scented joe-pye-weed; purple joe pye weed"
+"Helianthus hirsutus",Asteraceae,HELHIR,5,native,5,2,forb,perennial,"hispid sunflower; hispid sunflower"
+"Leersia virginica",Poaceae,LEEVIR,30,native,7,-1,grass,perennial,"white grass"
+"Penstemon digitalis",Scrophulariaceae,PENDIG,5,native,4,0,forb,perennial,"foxglove beardtongue; foxglove beard tongue"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,15,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Ranunculus hispidus var. nitidus; ranunculus septentrionalis",Ranunculaceae,RANHISN,15,native,5,0,forb,perennial,"bristly buttercup; swamp buttercup"
+"Silene stellata",Caryophyllaceae,SILSTE,6,native,6,2,forb,perennial,"starry campion"
+"Solidago altissima",Asteraceae,SOLALT,15,native,1,1,forb,perennial,"tall goldenrod"
+"Symphyotrichum lateriflorum; aster lateriflorus",Asteraceae,ASTLAT,3,native,4,-1,forb,perennial,"farewell-summer; side-flowering aster"
+"Zizia aurea",Apiaceae,ZIZAUR,40,native,7,0,forb,perennial,"golden alexanders"
+
+"Quadrat 6 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Cinna arundinacea",Poaceae,CINARU,5,native,5,-1,grass,perennial,"sweet wood-reed; common wood reed"
+"Eutrochium purpureum; eupatorium purpureum",Asteraceae,EUPPUR,5,native,7,0,forb,perennial,"sweet-scented joe-pye-weed; purple joe pye weed"
+"Helianthus hirsutus",Asteraceae,HELHIR,5,native,5,2,forb,perennial,"hispid sunflower; hispid sunflower"
+"Penstemon digitalis",Scrophulariaceae,PENDIG,5,native,4,0,forb,perennial,"foxglove beardtongue; foxglove beard tongue"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,5,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Ranunculus hispidus var. nitidus; ranunculus septentrionalis",Ranunculaceae,RANHISN,40,native,5,0,forb,perennial,"bristly buttercup; swamp buttercup"
+"Rubus idaeus ssp. strigosus; rubus idaeus strigosus",Rosaceae,RUBIDAS,5,native,3,1,shrub,perennial,"common red raspberry; red raspberry"
+"Rubus occidentalis",Rosaceae,RUBOCC,20,native,2,2,shrub,perennial,"black raspberry"
+"Solidago altissima",Asteraceae,SOLALT,20,native,1,1,forb,perennial,"tall goldenrod"
+"Symphyotrichum lateriflorum; aster lateriflorus",Asteraceae,ASTLAT,3,native,4,-1,forb,perennial,"farewell-summer; side-flowering aster"
+"Thalictrum dioicum",Ranunculaceae,THADIO,5,native,7,1,forb,perennial,"early meadow-rue; early meadow rue"
+"Toxicodendron radicans; rhus radicans",Anacardiaceae,RHURAD,1,native,2,0,vine,perennial,"eastern poison-ivy; poison ivy"
+"Zizia aurea",Apiaceae,ZIZAUR,10,native,7,0,forb,perennial,"golden alexanders"
+
+"Quadrat 7 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Alliaria petiolata",Brassicaceae,ALLPET,1,non-native,0,0,forb,biennial,"garlic-mustard; garlic mustard"
+"Geranium maculatum",Geraniaceae,GERMAC,8,native,4,1,forb,perennial,"spotted cranes-bill; wild geranium"
+"Geum canadense",Rosaceae,GEUCAN,3,native,1,0,forb,perennial,"white avens; wood avens"
+"Impatiens capensis",Balsaminaceae,IMPCAP,5,native,3,-1,forb,annual,"spotted touch-me-not; orange jewelweed"
+"Leersia virginica",Poaceae,LEEVIR,25,native,7,-1,grass,perennial,"white grass"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,40,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Ranunculus hispidus var. nitidus; ranunculus septentrionalis",Ranunculaceae,RANHISN,1,native,5,0,forb,perennial,"bristly buttercup; swamp buttercup"
+"Solidago ulmifolia",Asteraceae,SOLULM,10,native,5,2,forb,perennial,"elm-leaf goldenrod; elm-leaved goldenrod"
+
+"Quadrat 8 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Arisaema triphyllum",Araceae,ARITRI,10,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Circaea canadensis; circaea lutetiana canadensis",Onagraceae,CIRCAN,5,native,1,1,forb,perennial,"broad-leaf enchanters-nightshade; enchanters nightshade"
+"Eutrochium purpureum; eupatorium purpureum",Asteraceae,EUPPUR,3,native,7,0,forb,perennial,"sweet-scented joe-pye-weed; purple joe pye weed"
+"Geranium maculatum",Geraniaceae,GERMAC,15,native,4,1,forb,perennial,"spotted cranes-bill; wild geranium"
+"Helianthus hirsutus",Asteraceae,HELHIR,1,native,5,2,forb,perennial,"hispid sunflower; hispid sunflower"
+"Maianthemum stellatum; smilacina stellata",Liliaceae,MAISTE,2,native,5,0,forb,perennial,"starry false solomons-seal; starry false solomons seal"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,2,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Potentilla simplex; potentilla simplex argyrisma",Rosaceae,POTSIM,5,native,4,1,forb,perennial,"oldfield cinquefoil; common cinquefoil; silver common cinquefoil"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,50,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Solidago ulmifolia",Asteraceae,SOLULM,1,native,5,2,forb,perennial,"elm-leaf goldenrod; elm-leaved goldenrod"
+
+"Quadrat 9 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Allium burdickii ; allium tricoccum burdickii",Liliaceae,ALLBUR,2,native,6,2,forb,perennial,"burdicks leek"
+"Allium canadense",Liliaceae,ALLCAN,15,native,2,1,forb,perennial,"meadow garlic; wild onion"
+"Amphicarpaea bracteata",Fabaceae,AMPBRA,5,native,4,0,vine,annual,"american hog-peanut; upland hog peanut"
+"Arisaema dracontium",Araceae,ARIDRA,8,native,7,-1,forb,perennial,"greendragon; green dragon"
+"Arisaema triphyllum",Araceae,ARITRI,3,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Carex blanda",Cyperaceae,CXBLAN,5,native,1,0,sedge,perennial,"eastern woodland sedge; common wood sedge"
+"Geranium maculatum",Geraniaceae,GERMAC,5,native,4,1,forb,perennial,"spotted cranes-bill; wild geranium"
+"Helenium autumnale",Asteraceae,HELAUT,8,native,5,-1,forb,perennial,"fall sneezeweed; sneezeweed"
+"Impatiens capensis",Balsaminaceae,IMPCAP,10,native,3,-1,forb,annual,"spotted touch-me-not; orange jewelweed"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,1,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Ranunculus hispidus var. nitidus; ranunculus septentrionalis",Ranunculaceae,RANHISN,5,native,5,0,forb,perennial,"bristly buttercup; swamp buttercup"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,40,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Rubus occidentalis",Rosaceae,RUBOCC,5,native,2,2,shrub,perennial,"black raspberry"
+"Solidago altissima",Asteraceae,SOLALT,3,native,1,1,forb,perennial,"tall goldenrod"
+"Solidago ulmifolia",Asteraceae,SOLULM,3,native,5,2,forb,perennial,"elm-leaf goldenrod; elm-leaved goldenrod"
+"Symphyotrichum shortii; aster shortii",Asteraceae,ASTSHO,2,native,8,2,forb,perennial,"shorts aster; shorts aster"
+"Viola pubescens",Violaceae,VIOPUB,8,native,5,1,forb,perennial,"downy yellow violet; yellow violet"
+
+"Quadrat 10 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Alliaria petiolata",Brassicaceae,ALLPET,15,non-native,0,0,forb,biennial,"garlic-mustard; garlic mustard"
+"Arisaema triphyllum",Araceae,ARITRI,1,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Geranium maculatum",Geraniaceae,GERMAC,2,native,4,1,forb,perennial,"spotted cranes-bill; wild geranium"
+"Geum canadense",Rosaceae,GEUCAN,1,native,1,0,forb,perennial,"white avens; wood avens"
+"Impatiens capensis",Balsaminaceae,IMPCAP,1,native,3,-1,forb,annual,"spotted touch-me-not; orange jewelweed"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,20,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Prunus virginiana",Rosaceae,PRUVIR,3,native,3,1,shrub,perennial,"choke cherry"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,50,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Rubus occidentalis",Rosaceae,RUBOCC,5,native,2,2,shrub,perennial,"black raspberry"
+"Solidago altissima",Asteraceae,SOLALT,25,native,1,1,forb,perennial,"tall goldenrod"
+"Solidago flexicaulis",Asteraceae,SOLFLE,2,native,7,1,forb,perennial,"zigzag goldenrod; broad-leaved goldenrod"
+"Toxicodendron radicans; rhus radicans",Anacardiaceae,RHURAD,1,native,2,0,vine,perennial,"eastern poison-ivy; poison ivy"
+
+"Quadrat 11 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Alliaria petiolata",Brassicaceae,ALLPET,5,non-native,0,0,forb,biennial,"garlic-mustard; garlic mustard"
+"Arisaema triphyllum",Araceae,ARITRI,1,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Carya ovata",Juglandaceae,CAROVT,3,native,5,1,tree,perennial,"shag-bark hickory; shagbark hickory"
+"Circaea canadensis; circaea lutetiana canadensis",Onagraceae,CIRCAN,3,native,1,1,forb,perennial,"broad-leaf enchanters-nightshade; enchanters nightshade"
+"Geranium maculatum",Geraniaceae,GERMAC,1,native,4,1,forb,perennial,"spotted cranes-bill; wild geranium"
+"Impatiens capensis",Balsaminaceae,IMPCAP,2,native,3,-1,forb,annual,"spotted touch-me-not; orange jewelweed"
+"Leersia virginica",Poaceae,LEEVIR,3,native,7,-1,grass,perennial,"white grass"
+"Maianthemum stellatum; smilacina stellata",Liliaceae,MAISTE,1,native,5,0,forb,perennial,"starry false solomons-seal; starry false solomons seal"
+"Malus toringa; malus sieboldii",Rosaceae,MALSIE,1,non-native,0,2,tree,perennial,"japanese crab apple; japanese crab"
+"Nabalus albus; prenanthes alba",Asteraceae,NABALB,1,native,5,1,forb,perennial,"white rattlesnake-root; lions foot"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,15,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Potentilla simplex; potentilla simplex argyrisma",Rosaceae,POTSIM,1,native,4,1,forb,perennial,"oldfield cinquefoil; common cinquefoil; silver common cinquefoil"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,5,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Solidago altissima",Asteraceae,SOLALT,15,native,1,1,forb,perennial,"tall goldenrod"
+"Symphyotrichum lateriflorum; aster lateriflorus",Asteraceae,ASTLAT,3,native,4,-1,forb,perennial,"farewell-summer; side-flowering aster"
+"Viola sororia",Violaceae,VIOSOR,1,native,3,0,forb,perennial,"hooded blue violet; common blue violet"
+
+"Quadrat 12 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Andropogon gerardii",Poaceae,ANDGER,10,native,5,0,grass,perennial,"big bluestem; big bluestem grass"
+"Arisaema triphyllum",Araceae,ARITRI,8,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Carex pensylvanica",Cyperaceae,CXPENS,40,native,5,2,sedge,perennial,"pennsylvania sedge; common oak sedge"
+"Cirsium altissimum",Asteraceae,CIRALT,30,native,6,2,forb,biennial,"tall thistle"
+"Fragaria virginiana",Rosaceae,FRAVIR,1,native,1,1,forb,perennial,"virginia strawberry; wild strawberry"
+"Geranium maculatum",Geraniaceae,GERMAC,3,native,4,1,forb,perennial,"spotted cranes-bill; wild geranium"
+"Geum canadense",Rosaceae,GEUCAN,5,native,1,0,forb,perennial,"white avens; wood avens"
+"Helianthus hirsutus",Asteraceae,HELHIR,30,native,5,2,forb,perennial,"hispid sunflower; hispid sunflower"
+"Impatiens capensis",Balsaminaceae,IMPCAP,1,native,3,-1,forb,annual,"spotted touch-me-not; orange jewelweed"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,3,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Potentilla simplex; potentilla simplex argyrisma",Rosaceae,POTSIM,8,native,4,1,forb,perennial,"oldfield cinquefoil; common cinquefoil; silver common cinquefoil"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,25,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Rubus flagellaris; rubus enslenii",Rosaceae,RUBENS,15,native,3,1,shrub,perennial,"whiplash dewberry; common dewberry; one-flowered dewberry"
+"Rudbeckia subtomentosa",Asteraceae,RUDSUB,15,native,9,1,forb,perennial,"sweet coneflower; sweet black-eyed susan"
+"Solidago altissima",Asteraceae,SOLALT,8,native,1,1,forb,perennial,"tall goldenrod"
+"Thalictrum dioicum",Ranunculaceae,THADIO,15,native,7,1,forb,perennial,"early meadow-rue; early meadow rue"
+"Zizia aurea",Apiaceae,ZIZAUR,8,native,7,0,forb,perennial,"golden alexanders"
+
+"Quadrat 13 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Allium burdickii ; allium tricoccum burdickii",Liliaceae,ALLBUR,10,native,6,2,forb,perennial,"burdicks leek"
+"Allium cernuum",Liliaceae,ALLCER,15,native,7,1,forb,perennial,"nodding onion; nodding wild onion"
+"Anemone virginiana",Ranunculaceae,ANEVIR,1,native,5,1,forb,perennial,"tall thimbleweed; tall anemone"
+"Arisaema triphyllum",Araceae,ARITRI,5,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Camassia scilloides",Liliaceae,CAMSCI,3,native,6,0,forb,perennial,"atlantic camas; wild hyacinth"
+"Carex pensylvanica",Cyperaceae,CXPENS,3,native,5,2,sedge,perennial,"pennsylvania sedge; common oak sedge"
+"Cornus racemosa",Cornaceae,CORRAC,3,native,1,0,shrub,perennial,"gray dogwood"
+"Fragaria virginiana",Rosaceae,FRAVIR,2,native,1,1,forb,perennial,"virginia strawberry; wild strawberry"
+"Helianthus hirsutus",Asteraceae,HELHIR,15,native,5,2,forb,perennial,"hispid sunflower; hispid sunflower"
+"Maianthemum stellatum; smilacina stellata",Liliaceae,MAISTE,2,native,5,0,forb,perennial,"starry false solomons-seal; starry false solomons seal"
+"Malus toringa; malus sieboldii",Rosaceae,MALSIE,3,non-native,0,2,tree,perennial,"japanese crab apple; japanese crab"
+"Monarda fistulosa",Lamiaceae,MONFIS,5,native,4,1,forb,perennial,"oswego-tea; wild bergamot"
+"Quercus macrocarpa",Fagaceae,QUEMAC,1,native,5,0,tree,perennial,"burr oak; bur oak"
+"Rubus flagellaris; rubus enslenii",Rosaceae,RUBENS,35,native,3,1,shrub,perennial,"whiplash dewberry; common dewberry; one-flowered dewberry"
+"Rudbeckia subtomentosa",Asteraceae,RUDSUB,8,native,9,1,forb,perennial,"sweet coneflower; sweet black-eyed susan"
+"Smilax lasioneuron; smilax lasioneura",Smilacaceae,SMILAS,1,native,5,2,vine,perennial,"common carrion flower"
+"Solidago altissima",Asteraceae,SOLALT,60,native,1,1,forb,perennial,"tall goldenrod"
+"Symphyotrichum lateriflorum; aster lateriflorus",Asteraceae,ASTLAT,5,native,4,-1,forb,perennial,"farewell-summer; side-flowering aster"
+"Thalictrum dioicum",Ranunculaceae,THADIO,1,native,7,1,forb,perennial,"early meadow-rue; early meadow rue"
+"Trillium grandiflorum; trillium grandiflorum",Liliaceae,TRIGRA,1,native,8,2,forb,perennial,"large white trillium; large-flowered trillium"
+"Uvularia grandiflora",Cohchicaceae,UVUGRA,1,native,7,2,forb,perennial,"yellow bellwort; bellwort"
+
+"Quadrat 14 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Ageratina altissima; eupatorium rugosum",Asteraceae,AGEALT,5,native,4,1,forb,perennial,"white snakeroot"
+"Amphicarpaea bracteata",Fabaceae,AMPBRA,1,native,4,0,vine,annual,"american hog-peanut; upland hog peanut"
+"Arisaema dracontium",Araceae,ARIDRA,1,native,7,-1,forb,perennial,"greendragon; green dragon"
+"Arisaema triphyllum",Araceae,ARITRI,1,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Cinna arundinacea",Poaceae,CINARU,1,native,5,-1,grass,perennial,"sweet wood-reed; common wood reed"
+"Dioscorea villosa",Dioscoreaceae,DIOVIL,10,native,7,0,vine,perennial,"wild yam"
+"Geranium maculatum",Geraniaceae,GERMAC,1,native,4,1,forb,perennial,"spotted cranes-bill; wild geranium"
+"Helianthus hirsutus",Asteraceae,HELHIR,1,native,5,2,forb,perennial,"hispid sunflower; hispid sunflower"
+"Leersia virginica",Poaceae,LEEVIR,5,native,7,-1,grass,perennial,"white grass"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,20,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Potentilla simplex; potentilla simplex argyrisma",Rosaceae,POTSIM,3,native,4,1,forb,perennial,"oldfield cinquefoil; common cinquefoil; silver common cinquefoil"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,30,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Smilax lasioneuron; smilax lasioneura",Smilacaceae,SMILAS,1,native,5,2,vine,perennial,"common carrion flower"
+"Solidago altissima",Asteraceae,SOLALT,60,native,1,1,forb,perennial,"tall goldenrod"
+"Solidago ulmifolia",Asteraceae,SOLULM,10,native,5,2,forb,perennial,"elm-leaf goldenrod; elm-leaved goldenrod"
+"Symphyotrichum shortii; aster shortii",Asteraceae,ASTSHO,2,native,8,2,forb,perennial,"shorts aster; shorts aster"
+"Thalictrum dioicum",Ranunculaceae,THADIO,10,native,7,1,forb,perennial,"early meadow-rue; early meadow rue"
+"Zizia aurea",Apiaceae,ZIZAUR,10,native,7,0,forb,perennial,"golden alexanders"
+
+"Quadrat 15 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Amphicarpaea bracteata",Fabaceae,AMPBRA,3,native,4,0,vine,annual,"american hog-peanut; upland hog peanut"
+"Arisaema triphyllum",Araceae,ARITRI,1,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Circaea canadensis; circaea lutetiana canadensis",Onagraceae,CIRCAN,5,native,1,1,forb,perennial,"broad-leaf enchanters-nightshade; enchanters nightshade"
+"Cryptotaenia canadensis",Apiaceae,CRYCAN,2,native,2,0,forb,perennial,"canadian honewort; honewort"
+"Eutrochium maculatum; eupatorium maculatum",Asteraceae,EUPMAC,30,native,4,-2,forb,perennial,"spotted trumpetweed; spotted joe pye weed"
+"Eutrochium purpureum; eupatorium purpureum",Asteraceae,EUPPUR,1,native,7,0,forb,perennial,"sweet-scented joe-pye-weed; purple joe pye weed"
+"Leersia virginica",Poaceae,LEEVIR,8,native,7,-1,grass,perennial,"white grass"
+"Oxalis stricta; oxalis europaea",Oxalidaceae,OXAEUR,2,native,0,1,forb,perennial,"upright yellow wood-sorrel; common wood sorrel"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,3,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Potentilla simplex; potentilla simplex argyrisma",Rosaceae,POTSIM,3,native,4,1,forb,perennial,"oldfield cinquefoil; common cinquefoil; silver common cinquefoil"
+"Solidago altissima",Asteraceae,SOLALT,30,native,1,1,forb,perennial,"tall goldenrod"
+"Solidago ulmifolia",Asteraceae,SOLULM,10,native,5,2,forb,perennial,"elm-leaf goldenrod; elm-leaved goldenrod"
+"Symphyotrichum shortii; aster shortii",Asteraceae,ASTSHO,10,native,8,2,forb,perennial,"shorts aster; shorts aster"
+"Zizia aurea",Apiaceae,ZIZAUR,2,native,7,0,forb,perennial,"golden alexanders"
+
+"Quadrat 16 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Allium canadense",Liliaceae,ALLCAN,12,native,2,1,forb,perennial,"meadow garlic; wild onion"
+"Bidens frondosa",Asteraceae,BIDFRO,1,native,1,-1,forb,annual,"devils-pitchfork; common beggars ticks"
+"Camassia scilloides",Liliaceae,CAMSCI,10,native,6,0,forb,perennial,"atlantic camas; wild hyacinth"
+"Carex pensylvanica",Cyperaceae,CXPENS,25,native,5,2,sedge,perennial,"pennsylvania sedge; common oak sedge"
+"Dichanthelium acuminatum; panicum implicatum; panicum auburne; panicum lindheimeri; panicum praecocius; panicum subvillosum; panicum villosissimum; panicum villosissimum pseudopubescens",Poaceae,DICACU,4,native,2,0,grass,perennial,"tapered rosette grass; old-field panic grass; red-brown panic grass; smooth woolly panic grass; long-haired panic grass; downy panic grass; false white-haired panic grass"
+"Geum canadense",Rosaceae,GEUCAN,5,native,1,0,forb,perennial,"white avens; wood avens"
+"Hedeoma pulegioides",Lamiaceae,HEDPUL,2,native,3,2,forb,annual,"american pennyroyal"
+"Helianthus maximilianii",Asteraceae,HELMAX,1,non-native,0,2,forb,perennial,"maximilians sunflower; maximilian sunflower"
+"Impatiens capensis",Balsaminaceae,IMPCAP,2,native,3,-1,forb,annual,"spotted touch-me-not; orange jewelweed"
+"Leersia virginica",Poaceae,LEEVIR,35,native,7,-1,grass,perennial,"white grass"
+"Menispermum canadense",Menispermaceae,MENCAN,2,native,6,0,vine,perennial,"canadian moonseed; moonseed"
+"Oxalis stricta; oxalis europaea",Oxalidaceae,OXAEUR,1,native,0,1,forb,perennial,"upright yellow wood-sorrel; common wood sorrel"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,5,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Potentilla simplex; potentilla simplex argyrisma",Rosaceae,POTSIM,5,native,4,1,forb,perennial,"oldfield cinquefoil; common cinquefoil; silver common cinquefoil"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,3,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Solidago ulmifolia",Asteraceae,SOLULM,25,native,5,2,forb,perennial,"elm-leaf goldenrod; elm-leaved goldenrod"
+"Symphyotrichum shortii; aster shortii",Asteraceae,ASTSHO,12,native,8,2,forb,perennial,"shorts aster; shorts aster"
+"Viola sororia",Violaceae,VIOSOR,2,native,3,0,forb,perennial,"hooded blue violet; common blue violet"
+
+"Quadrat 17 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Ageratina altissima; eupatorium rugosum",Asteraceae,AGEALT,20,native,4,1,forb,perennial,"white snakeroot"
+"Arisaema dracontium",Araceae,ARIDRA,2,native,7,-1,forb,perennial,"greendragon; green dragon"
+"Arisaema triphyllum",Araceae,ARITRI,1,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Carex blanda",Cyperaceae,CXBLAN,5,native,1,0,sedge,perennial,"eastern woodland sedge; common wood sedge"
+"Cirsium discolor",Asteraceae,CIRDIS,3,native,2,1,forb,biennial,"field thistle; pasture thistle"
+"Coreopsis tripteris",Asteraceae,CORTRI,1,native,5,0,forb,perennial,"tall tickseed; tall coreopsis"
+"Heliopsis helianthoides",Asteraceae,HELHEL,30,native,5,1,forb,perennial,"smooth oxeye; false sunflower"
+"Impatiens capensis",Balsaminaceae,IMPCAP,3,native,3,-1,forb,annual,"spotted touch-me-not; orange jewelweed"
+"Maianthemum racemosum; smilacina racemosa",Liliaceae,MAIRAC,2,native,3,1,forb,perennial,"feathery false solomons-seal; feathery false solomons seal"
+"Monarda fistulosa",Lamiaceae,MONFIS,10,native,4,1,forb,perennial,"oswego-tea; wild bergamot"
+"Muhlenbergia mexicana",Poaceae,MUHMEX,5,native,5,-1,grass,perennial,"mexican muhly; leafy satin grass"
+"Oxalis stricta; oxalis europaea",Oxalidaceae,OXAEUR,5,native,0,1,forb,perennial,"upright yellow wood-sorrel; common wood sorrel"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,8,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Rubus occidentalis",Rosaceae,RUBOCC,50,native,2,2,shrub,perennial,"black raspberry"
+"Solidago altissima",Asteraceae,SOLALT,5,native,1,1,forb,perennial,"tall goldenrod"
+"Symphyotrichum drummondii ; aster sagittifolius drummondii",Asteraceae,ASTSAGD,5,native,2,2,forb,perennial,"drummonds aster; drummonds aster"
+"Vernonia fasciculata",Asteraceae,VERFAS,10,native,5,-1,forb,perennial,"prairie ironweed; common ironweed"
+"Viola sororia",Violaceae,VIOSOR,5,native,3,0,forb,perennial,"hooded blue violet; common blue violet"
+
+"Quadrat 18 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Allium cernuum",Liliaceae,ALLCER,15,native,7,1,forb,perennial,"nodding onion; nodding wild onion"
+"Arisaema dracontium",Araceae,ARIDRA,2,native,7,-1,forb,perennial,"greendragon; green dragon"
+"Cornus racemosa",Cornaceae,CORRAC,3,native,1,0,shrub,perennial,"gray dogwood"
+"Eutrochium purpureum; eupatorium purpureum",Asteraceae,EUPPUR,8,native,7,0,forb,perennial,"sweet-scented joe-pye-weed; purple joe pye weed"
+"Fraxinus pennsylvanica; fraxinus pennsylvanica subintegerrima",Oleaceae,FRAPEN,15,native,1,-1,tree,perennial,"green ash"
+"Impatiens capensis",Balsaminaceae,IMPCAP,5,native,3,-1,forb,annual,"spotted touch-me-not; orange jewelweed"
+"Lycopus americanus",Lamiaceae,LYCAME,8,native,5,-2,forb,perennial,"cut-leaf water-horehound; common water horehound"
+"Packera paupercula; senecio pauperculus",Asteraceae,PACPAU,8,native,6,0,forb,perennial,"balsam groundsel; balsam ragwort"
+"Pycnanthemum virginianum",Lamiaceae,PYCVIR,8,native,5,-1,forb,perennial,"virginia mountain-mint; common mountain mint"
+"Ranunculus hispidus var. nitidus; ranunculus septentrionalis",Ranunculaceae,RANHISN,5,native,5,0,forb,perennial,"bristly buttercup; swamp buttercup"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,60,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Rosa palustris",Rosaceae,ROSPAL,3,native,7,-2,shrub,perennial,"swamp rose"
+"Solidago altissima",Asteraceae,SOLALT,20,native,1,1,forb,perennial,"tall goldenrod"
+"Spartina pectinata",Poaceae,SPAPEC,10,native,4,-1,grass,perennial,"freshwater cord grass; prairie cord grass"
+"Symphyotrichum novae-angliae; aster novae-angliae",Asteraceae,ASTNOV,5,native,4,-1,forb,perennial,"new england american-aster; new england aster"
+"Thalictrum dioicum",Ranunculaceae,THADIO,2,native,7,1,forb,perennial,"early meadow-rue; early meadow rue"
+
+"Quadrat 19 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Eutrochium purpureum; eupatorium purpureum",Asteraceae,EUPPUR,20,native,7,0,forb,perennial,"sweet-scented joe-pye-weed; purple joe pye weed"
+"Helianthus hirsutus",Asteraceae,HELHIR,40,native,5,2,forb,perennial,"hispid sunflower; hispid sunflower"
+"Hypericum ascyron; hypericum pyramidatum",Clusiaceae,HYPASC,5,native,10,0,forb,perennial,"great st. johns-wort; great st. johns wort"
+"Monarda fistulosa",Lamiaceae,MONFIS,15,native,4,1,forb,perennial,"oswego-tea; wild bergamot"
+"Penstemon digitalis",Scrophulariaceae,PENDIG,8,native,4,0,forb,perennial,"foxglove beardtongue; foxglove beard tongue"
+"Ratibida pinnata",Asteraceae,RATPIN,10,native,4,2,forb,perennial,"yellow coneflower; yellow coneflower"
+"Solidago altissima",Asteraceae,SOLALT,40,native,1,1,forb,perennial,"tall goldenrod"
+"Tradescantia ohiensis",Commelinaceae,TRAOHI,15,native,2,1,forb,perennial,"bluejacket; common spiderwort"
+
+"Quadrat 20 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Allium canadense",Liliaceae,ALLCAN,5,native,2,1,forb,perennial,"meadow garlic; wild onion"
+"Arisaema dracontium",Araceae,ARIDRA,5,native,7,-1,forb,perennial,"greendragon; green dragon"
+"Arisaema triphyllum",Araceae,ARITRI,8,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Bromus pubescens",Poaceae,BROPUB,5,native,5,1,grass,perennial,"hairy woodland brome; woodland brome"
+"Cirsium altissimum",Asteraceae,CIRALT,8,native,6,2,forb,biennial,"tall thistle"
+"Eutrochium purpureum; eupatorium purpureum",Asteraceae,EUPPUR,10,native,7,0,forb,perennial,"sweet-scented joe-pye-weed; purple joe pye weed"
+"Geum canadense",Rosaceae,GEUCAN,3,native,1,0,forb,perennial,"white avens; wood avens"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,5,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,10,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Rubus flagellaris; rubus enslenii",Rosaceae,RUBENS,10,native,3,1,shrub,perennial,"whiplash dewberry; common dewberry; one-flowered dewberry"
+"Solidago altissima",Asteraceae,SOLALT,3,native,1,1,forb,perennial,"tall goldenrod"
+"Solidago ulmifolia",Asteraceae,SOLULM,3,native,5,2,forb,perennial,"elm-leaf goldenrod; elm-leaved goldenrod"
+
+"Quadrat 21 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Alliaria petiolata",Brassicaceae,ALLPET,20,non-native,0,0,forb,biennial,"garlic-mustard; garlic mustard"
+"Allium canadense",Liliaceae,ALLCAN,2,native,2,1,forb,perennial,"meadow garlic; wild onion"
+"Arisaema triphyllum",Araceae,ARITRI,5,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Cardamine concatenata; dentaria laciniata",Brassicaceae,CARCON,8,native,5,1,forb,perennial,"cut-leaf toothwort; toothwort"
+"Geum canadense",Rosaceae,GEUCAN,2,native,1,0,forb,perennial,"white avens; wood avens"
+"Maianthemum racemosum; smilacina racemosa",Liliaceae,MAIRAC,2,native,3,1,forb,perennial,"feathery false solomons-seal; feathery false solomons seal"
+"Ostrya virginiana",Betulaceae,OSTVIR,5,native,5,1,tree,perennial,"eastern hop-hornbeam; hop hornbeam"
+"Prunus serotina",Rosaceae,PRUSER,1,native,1,1,tree,perennial,"black cherry; wild black cherry"
+"Rubus occidentalis",Rosaceae,RUBOCC,5,native,2,2,shrub,perennial,"black raspberry"
+"Smilax ecirrhata",Smilacaceae,SMIECI,5,native,5,2,forb,perennial,"upright carrion flower"
+"Solidago ulmifolia",Asteraceae,SOLULM,10,native,5,2,forb,perennial,"elm-leaf goldenrod; elm-leaved goldenrod"
+"Zizia aurea",Apiaceae,ZIZAUR,5,native,7,0,forb,perennial,"golden alexanders"
+
+"Quadrat 22 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Aquilegia canadensis",Ranunculaceae,AQUCAN,5,native,6,1,forb,perennial,"red columbine; wild columbine"
+"Arisaema dracontium",Araceae,ARIDRA,3,native,7,-1,forb,perennial,"greendragon; green dragon"
+"Arisaema triphyllum",Araceae,ARITRI,8,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Bromus pubescens",Poaceae,BROPUB,5,native,5,1,grass,perennial,"hairy woodland brome; woodland brome"
+"Carex blanda",Cyperaceae,CXBLAN,3,native,1,0,sedge,perennial,"eastern woodland sedge; common wood sedge"
+"Circaea canadensis; circaea lutetiana canadensis",Onagraceae,CIRCAN,8,native,1,1,forb,perennial,"broad-leaf enchanters-nightshade; enchanters nightshade"
+"Cirsium altissimum",Asteraceae,CIRALT,3,native,6,2,forb,biennial,"tall thistle"
+"Eurybia macrophylla; aster macrophyllus",Asteraceae,ASTMAC,1,native,8,1,forb,perennial,"large-leaf wood-aster; big-leaved aster"
+"Eutrochium purpureum; eupatorium purpureum",Asteraceae,EUPPUR,8,native,7,0,forb,perennial,"sweet-scented joe-pye-weed; purple joe pye weed"
+"Fragaria virginiana",Rosaceae,FRAVIR,5,native,1,1,forb,perennial,"virginia strawberry; wild strawberry"
+"Helianthus hirsutus",Asteraceae,HELHIR,5,native,5,2,forb,perennial,"hispid sunflower; hispid sunflower"
+"Ostrya virginiana",Betulaceae,OSTVIR,5,native,5,1,tree,perennial,"eastern hop-hornbeam; hop hornbeam"
+"Prunus serotina",Rosaceae,PRUSER,5,native,1,1,tree,perennial,"black cherry; wild black cherry"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,2,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Rubus flagellaris; rubus enslenii",Rosaceae,RUBENS,5,native,3,1,shrub,perennial,"whiplash dewberry; common dewberry; one-flowered dewberry"
+"Rubus occidentalis",Rosaceae,RUBOCC,15,native,2,2,shrub,perennial,"black raspberry"
+"Solidago ulmifolia",Asteraceae,SOLULM,35,native,5,2,forb,perennial,"elm-leaf goldenrod; elm-leaved goldenrod"
+"Taraxacum officinale",Asteraceae,TAROFF,3,non-native,0,1,forb,perennial,"common dandelion"
+"Toxicodendron radicans; rhus radicans",Anacardiaceae,RHURAD,8,native,2,0,vine,perennial,"eastern poison-ivy; poison ivy"
+"Viola sororia",Violaceae,VIOSOR,3,native,3,0,forb,perennial,"hooded blue violet; common blue violet"
+
+"Quadrat 23 Species:"
+"Scientific Name",Family,Acronym,"% Cover",Native?,C,W,Physiognomy,Duration,"Common Name"
+"Allium canadense",Liliaceae,ALLCAN,20,native,2,1,forb,perennial,"meadow garlic; wild onion"
+"Allium cernuum",Liliaceae,ALLCER,15,native,7,1,forb,perennial,"nodding onion; nodding wild onion"
+"Anemone virginiana",Ranunculaceae,ANEVIR,1,native,5,1,forb,perennial,"tall thimbleweed; tall anemone"
+"Arisaema triphyllum",Araceae,ARITRI,50,native,4,-1,forb,perennial,jack-in-the-pulpit
+"Carex blanda",Cyperaceae,CXBLAN,15,native,1,0,sedge,perennial,"eastern woodland sedge; common wood sedge"
+"Carex cephalophora",Cyperaceae,CXCEPH,2,native,3,1,sedge,perennial,"oval-leaf sedge; short-headed bracted sedge"
+"Cornus racemosa",Cornaceae,CORRAC,3,native,1,0,shrub,perennial,"gray dogwood"
+"Dasistoma macrophylla; seymeria macrophylla",Scrophulariaceae,DASMAC,5,native,8,1,forb,perennial,"mullein-foxglove; mullein foxglove"
+"Daucus carota",Apiaceae,DAUCAR,2,non-native,0,2,forb,biennial,"queen annes lace; queen annes lace"
+"Fragaria virginiana",Rosaceae,FRAVIR,5,native,1,1,forb,perennial,"virginia strawberry; wild strawberry"
+"Fraxinus pennsylvanica; fraxinus pennsylvanica subintegerrima",Oleaceae,FRAPEN,5,native,1,-1,tree,perennial,"green ash"
+"Helianthus hirsutus",Asteraceae,HELHIR,25,native,5,2,forb,perennial,"hispid sunflower; hispid sunflower"
+"Malus toringa; malus sieboldii",Rosaceae,MALSIE,5,non-native,0,2,tree,perennial,"japanese crab apple; japanese crab"
+"Monarda fistulosa",Lamiaceae,MONFIS,5,native,4,1,forb,perennial,"oswego-tea; wild bergamot"
+"Penstemon digitalis",Scrophulariaceae,PENDIG,3,native,4,0,forb,perennial,"foxglove beardtongue; foxglove beard tongue"
+"Persicaria virginiana; polygonum virginianum",Polygonaceae,PERVIR,2,native,2,0,forb,perennial,"jumpseed; woodland knotweed"
+"Potentilla simplex; potentilla simplex argyrisma",Rosaceae,POTSIM,3,native,4,1,forb,perennial,"oldfield cinquefoil; common cinquefoil; silver common cinquefoil"
+"Rhamnus cathartica",Rhamnaceae,RHACAT,25,non-native,0,0,shrub,perennial,"european buckthorn; common buckthorn"
+"Rubus flagellaris; rubus enslenii",Rosaceae,RUBENS,20,native,3,1,shrub,perennial,"whiplash dewberry; common dewberry; one-flowered dewberry"
+"Rudbeckia subtomentosa",Asteraceae,RUDSUB,5,native,9,1,forb,perennial,"sweet coneflower; sweet black-eyed susan"
+"Solidago ulmifolia",Asteraceae,SOLULM,3,native,5,2,forb,perennial,"elm-leaf goldenrod; elm-leaved goldenrod"
+"Taraxacum officinale",Asteraceae,TAROFF,2,non-native,0,1,forb,perennial,"common dandelion"
+"Vitis riparia",Vitaceae,VITRIP,20,native,2,-1,vine,perennial,"river-bank grape; riverbank grape"
+"Zizia aurea",Apiaceae,ZIZAUR,5,native,7,0,forb,perennial,"golden alexanders"
+
