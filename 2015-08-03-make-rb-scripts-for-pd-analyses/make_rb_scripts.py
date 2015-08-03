@@ -11,6 +11,7 @@ years = ['1985', '1986', '1988', '1989', '1991', '1993', '1995', '1998', '2000',
 for year in years:
     with open('final_fqa_data/' + year + '.csv') as f:
         content = f.readlines()
+        taxa = []
         all_species = ''
         natives = ''
         nonnatives = ''
@@ -26,15 +27,22 @@ for year in years:
         taxon = ''
         for species in species_list:
             words = species.split('"')
-            taxon = words[1].strip().replace(' ', '_').replace('.', '')
+            taxon = words[1]
             if ';' in taxon:
                 synonyms = taxon.split(';')
-                taxon = synonyms[0].strip().replace(' ', '_').replace('.', '')
-            all_species += '"' + taxon + '",'
-            if 'non-native' in words[2]:
-                nonnatives += '"' + taxon + '",'
-            else:
-                natives += '"' + taxon + '",'
+                taxon = synonyms[0]
+            taxon = taxon.strip().replace(' ', '_').replace('.', '')
+            if taxon.find('_var_') != -1:
+                taxon = taxon[:taxon.find('_var_')]
+            if taxon.find('_ssp_') != -1:
+                taxon = taxon[:taxon.find('_ssp_')]
+            if taxon not in taxa:
+                taxa.append(taxon)
+                all_species += '"' + taxon + '",'
+                if 'non-native' in words[2]:
+                    nonnatives += '"' + taxon + '",'
+                else:
+                    natives += '"' + taxon + '",'
         all_species = all_species[:-1]
         natives = natives[:-1]
         nonnatives = nonnatives[:-1]
