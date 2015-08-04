@@ -1,5 +1,15 @@
 #! /usr/bin/python
 
+taxa_in_tree = []
+with open('taxa_in_tree.txt') as f:
+    for line in f.readlines():
+        taxon = line.strip().replace('\n', '')
+        taxa_in_tree.append(taxon)
+
+print('List of all taxa not found in tree and replaced with members of the same genera:')
+print('missing taxon,replacement taxon')
+missing_taxa = []
+
 # output needed:
 # clade_all = clade("Adenaria_floribunda","Pemphis_acidula")
 # clade_natives = clade("Adenaria_floribunda","Pemphis_acidula")
@@ -36,6 +46,16 @@ for year in years:
                 taxon = taxon[:taxon.find('_var_')]
             if taxon.find('_ssp_') != -1:
                 taxon = taxon[:taxon.find('_ssp_')]
+            if taxon not in taxa_in_tree:
+                # get a member of the same genera that is in the tree
+                genus = taxon.split('_')[0]
+                for tip in taxa_in_tree:
+                    if genus in tip:
+                        if taxon not in missing_taxa:
+                            print(taxon + ',' + tip)
+                            missing_taxa.append(taxon)
+                        taxon = tip
+                        break
             if taxon not in taxa:
                 taxa.append(taxon)
                 all_species += '"' + taxon + '",'
