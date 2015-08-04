@@ -1,0 +1,21 @@
+r8s –b –f branchlength_crossvalidation.nex > outfile
+r8s –b –f branchlength_final.nex > outfile
+
+angiosperms age=140
+angiosperm age calibration from Magallon et al. 2015
+
+spermatophytes age=330
+tracheophytes age=424
+spermatophyte and tracheophyte calibrations from Magallon et al. 2013
+
+Penalized likelihood method used in r8s with the truncated Newton method with bound constraints
+
+The optimal value of the smoothing parameter was determined by a cross-validation procedure over
+10 values ranging from 10^-5 to 10^5, each separated by one order of magnitude.
+
+for cross-validation to find optimal smoothing:
+divtime method=PL algorithm=TN crossv=yes cvstart=-5 cvinc=1 cvnum=10;
+
+once we have optimum smoothing:
+set smoothing=100;
+divtime method=PL algorithm=TN;
