@@ -1,0 +1,22 @@
+
+# 
+
+years = ["1985", "1986", "1988", "1989", "1991", "1993", "1995", "1998", "2000",
+         "2003", "2005", "2007", "2009", "2011", "2013"]
+
+tree <- readTrees("rooted_tree.tree")[1]
+
+for (i in 1:years.size()) {
+
+    years[i]
+
+    source("rev_scripts/" + years[i] + "_clades.Rev")
+
+    fnPD(tree, clade_all, includeRoot=TRUE)
+    fnPD(tree, clade_natives, includeRoot=TRUE)
+    fnPD(tree, clade_nonnatives, includeRoot=TRUE)
+    fnPD(tree, clade_all, includeRoot=FALSE)
+    fnPD(tree, clade_natives, includeRoot=FALSE)
+    fnPD(tree, clade_nonnatives, includeRoot=FALSE) 
+
+}

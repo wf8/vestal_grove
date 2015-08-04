@@ -1,0 +1,139 @@
+> source("calculate_pd.Rev")
+   Processing file "calculate_pd.Rev"
+   Attempting to read the contents of file "rooted_tree.tree"
+   Successfully read file
+   "1985"
+   Processing file "rev_scripts/1985_clades.Rev"
+   Processing of file "rev_scripts/1985_clades.Rev" completed
+   9.89379
+   8.7465
+   2.79498
+   9.88625
+   8.6109
+   2.78744
+   "1986"
+   Processing file "rev_scripts/1986_clades.Rev"
+   Processing of file "rev_scripts/1986_clades.Rev" completed
+   12.5495
+   11.4816
+   1.85538
+   12.542
+   11.4523
+   1.84783
+   "1988"
+   Processing file "rev_scripts/1988_clades.Rev"
+   Processing of file "rev_scripts/1988_clades.Rev" completed
+   15.0067
+   14.1579
+   1.82506
+   14.9991
+   14.1286
+   1.81751
+   "1989"
+   Processing file "rev_scripts/1989_clades.Rev"
+   Processing of file "rev_scripts/1989_clades.Rev" completed
+   13.9388
+   13.0768
+   3.04618
+   13.9313
+   13.0474
+   3.03864
+   "1991"
+   Processing file "rev_scripts/1991_clades.Rev"
+   Processing of file "rev_scripts/1991_clades.Rev" completed
+   14.7577
+   13.8114
+   3.40746
+   14.7501
+   13.782
+   3.39992
+   "1993"
+   Processing file "rev_scripts/1993_clades.Rev"
+   Processing of file "rev_scripts/1993_clades.Rev" completed
+   13.8267
+   13.0321
+   2.79381
+   13.7973
+   13.0027
+   2.63582
+   "1995"
+   Processing file "rev_scripts/1995_clades.Rev"
+   Processing of file "rev_scripts/1995_clades.Rev" completed
+   13.6416
+   13.0773
+   1.31328
+   13.6122
+   13.0479
+   1.14734
+   "1998"
+   Processing file "rev_scripts/1998_clades.Rev"
+   Processing of file "rev_scripts/1998_clades.Rev" completed
+   13.4725
+   13.0416
+   2.1874
+   13.4431
+   13.0122
+   2.02147
+   "2000"
+   Processing file "rev_scripts/2000_clades.Rev"
+   Processing of file "rev_scripts/2000_clades.Rev" completed
+   13.0574
+   12.4713
+   2.38412
+   12.9218
+   12.3357
+   2.22612
+   "2003"
+   Processing file "rev_scripts/2003_clades.Rev"
+   Processing of file "rev_scripts/2003_clades.Rev" completed
+   12.4351
+   11.9459
+   1.95697
+   12.2771
+   11.7879
+   1.79898
+   "2005"
+   Processing of file "rev_scripts/2005_clades.Rev" completed
+   14.0789
+   13.6619
+   2.73964
+   14.0496
+   13.6325
+   2.58165
+   "2007"
+   Processing file "rev_scripts/2007_clades.Rev"
+   Processing of file "rev_scripts/2007_clades.Rev" completed
+   13.4221
+   13.0726
+   1.17791
+   13.3927
+   13.0432
+   1.01197
+   "2009"
+   Processing file "rev_scripts/2009_clades.Rev"
+   Processing of file "rev_scripts/2009_clades.Rev" completed
+   13.607
+   13.3346
+   1.41655
+   13.5776
+   13.3052
+   1.25062
+   "2011"
+   Processing file "rev_scripts/2011_clades.Rev"
+   Processing of file "rev_scripts/2011_clades.Rev" completed
+   14.2719
+   14.0168
+   1.33341
+   14.2426
+   13.9875
+   1.16748
+   "2013"
+   Processing file "rev_scripts/2013_clades.Rev"
+   Processing of file "rev_scripts/2013_clades.Rev" completed
+   13.9512
+   13.6809
+   2.15348
+   13.9218
+   13.6515
+   1.98755
+   Processing of file "calculate_pd.Rev" completed
