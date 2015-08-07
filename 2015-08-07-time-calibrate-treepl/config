@@ -1,0 +1,15 @@
+treefile = branchlength2.new
+smooth = 100
+numsites = 28577
+mrca = tracheophytes Selaginella_rupestris Typha_angustifolia
+min = tracheophytes 424
+max = tracheophytes 424
+mrca = spermatophytes Pinus_banksiana Asarum_canadense
+min spermatophytes 330
+max spermatophytes 330
+mrca = angiosperms Brasenia_schreberi Typha_angustifolia
+min angiosperms 140
+max angiosperms 140
+cv
+nthreads = 4
+outfile = dated.nex
