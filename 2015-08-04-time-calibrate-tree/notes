@@ -1,5 +1,5 @@
-r8s –b –f branchlength_crossvalidation.nex > outfile
-r8s –b –f branchlength_final.nex > outfile
+./r8s –b –f branchlength_crossvalidation.nex > crossvalidation-outfile
+./r8s –b –f branchlength_final.nex > final-outfile
 
 angiosperms age=140
 angiosperm age calibration from Magallon et al. 2015
