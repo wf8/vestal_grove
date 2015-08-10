@@ -1,0 +1,160 @@
+
+RevBayes version 1.0.0 beta 2 (2015-07-14)
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("calculate_pd.Rev")
+   Processing file "calculate_pd.Rev"
+   Attempting to read the contents of file "dated.nex"
+
+Warning:
+ Expecting #NEXUS to be the first token in the file, but found ( instead
+at line 1, column (approximately) 2 (file position 1)
+
+Warning:
+ A TAXA block should be read before the TREES block (but no TAXA block was found).  Taxa will be inferred from their usage in the TREES block.
+at line 1, column (approximately) 87058 (file position 87057)
+   Successfully read file
+   "1985"
+   Processing file "rev_scripts/1985_clades.Rev"
+   Processing of file "rev_scripts/1985_clades.Rev" completed
+   2576.84
+   2284.3
+   951.191
+   2305.27
+   2012.73
+   679.621
+   "1986"
+   Processing file "rev_scripts/1986_clades.Rev"
+   Processing of file "rev_scripts/1986_clades.Rev" completed
+   2960.28
+   2725.2
+   786.16
+   2688.71
+   2453.63
+   473.166
+   "1988"
+   Processing file "rev_scripts/1988_clades.Rev"
+   Processing of file "rev_scripts/1988_clades.Rev" completed
+   3628.78
+   3430.52
+   789.172
+   3357.21
+   3158.95
+   476.178
+   "1989"
+   Processing file "rev_scripts/1989_clades.Rev"
+   Processing of file "rev_scripts/1989_clades.Rev" completed
+   3247.95
+   3072.75
+   978.017
+   2976.38
+   2801.18
+   706.447
+   "1991"
+   Processing file "rev_scripts/1991_clades.Rev"
+   Processing of file "rev_scripts/1991_clades.Rev" completed
+   3496.43
+   3287
+   1075.29
+   3224.86
+   3015.43
+   803.717
+   "1993"
+   Processing file "rev_scripts/1993_clades.Rev"
+   Processing of file "rev_scripts/1993_clades.Rev" completed
+   3275.65
+   3097.43
+   898.104
+   3004.08
+   2825.86
+   626.534
+   "1995"
+   Processing file "rev_scripts/1995_clades.Rev"
+   Processing of file "rev_scripts/1995_clades.Rev" completed
+   3440.06
+   3298.24
+   637.963
+   3168.49
+   3026.67
+   324.968
+   "1998"
+   Processing file "rev_scripts/1998_clades.Rev"
+   Processing of file "rev_scripts/1998_clades.Rev" completed
+   3484.35
+   3378.63
+   768.751
+   3212.78
+   3107.06
+   497.181
+   "2000"
+   Processing file "rev_scripts/2000_clades.Rev"
+   Processing of file "rev_scripts/2000_clades.Rev" completed
+   3286.72
+   3147.33
+   798.787
+   3015.15
+   2875.76
+   527.218
+   "2003"
+   Processing file "rev_scripts/2003_clades.Rev"
+   Processing of file "rev_scripts/2003_clades.Rev" completed
+   3136.82
+   3024.25
+   740.109
+   2865.25
+   2752.68
+   427.114
+   "2005"
+   Processing file "rev_scripts/2005_clades.Rev"
+   Processing of file "rev_scripts/2005_clades.Rev" completed
+   3481.36
+   3382.38
+   844.464
+   3209.79
+   3110.81
+   572.894
+   "2007"
+   Processing file "rev_scripts/2007_clades.Rev"
+   Processing of file "rev_scripts/2007_clades.Rev" completed
+   3278.18
+   3194.94
+   612.68
+   3006.61
+   2923.37
+   299.686
+   "2009"
+   Processing file "rev_scripts/2009_clades.Rev"
+   Processing of file "rev_scripts/2009_clades.Rev" completed
+   3220.78
+   3147.32
+   633.461
+   2949.21
+   2875.75
+   320.467
+   "2011"
+   Processing file "rev_scripts/2011_clades.Rev"
+   Processing of file "rev_scripts/2011_clades.Rev" completed
+   3463.73
+   3394.53
+   603.861
+   3192.16
+   3122.96
+   290.867
+   "2013"
+   Processing file "rev_scripts/2013_clades.Rev"
+   Processing of file "rev_scripts/2013_clades.Rev" completed
+   Processing file "rev_scripts/2013_clades.Rev"
+   Processing of file "rev_scripts/2013_clades.Rev" completed
+   3381.79
+   3314.29
+   735.511
+   3110.22
+   3042.72
+   463.941
+   Processing of file "calculate_pd.Rev" completed
