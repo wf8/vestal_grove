@@ -53,20 +53,10 @@ for year in years:
             weight = values[11]
             if '.' not in weight:
                 weight += '.0'
-            cover_weights_all += weight + ','
-            if 'non-native' in species:
-                cover_weights_nonnatives += weight + ','
-            else:
-                cover_weights_natives += weight + ','
             # get the c value
             c = str(round(float(values[4])/10, 2))
             if '.' not in c:
                 c += '.0'
-            c_values_all += c + ','
-            if 'non-native' in species:
-                c_values_nonnatives += c + ','
-            else:
-                c_values_natives += c + ','
             # get the taxon name
             words = species.split('"')
             taxon = words[1]
@@ -89,12 +79,18 @@ for year in years:
                         taxon = tip
                         break
             if taxon not in taxa:
+                cover_weights_all += weight + ','
+                c_values_all += c + ','
                 taxa.append(taxon)
                 all_species += '"' + taxon + '",'
                 if 'non-native' in words[2]:
                     nonnatives += '"' + taxon + '",'
+                    cover_weights_nonnatives += weight + ','
+                    c_values_nonnatives += c + ','
                 else:
                     natives += '"' + taxon + '",'
+                    cover_weights_natives += weight + ','
+                    c_values_natives += c + ','
         all_species = all_species[:-1]
         natives = natives[:-1]
         nonnatives = nonnatives[:-1]
