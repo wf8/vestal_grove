@@ -1,0 +1,148 @@
+> source("calculate_pd.Rev")
+   Processing file "calculate_pd.Rev"
+   Attempting to read the contents of file "dated.nex"
+
+Warning:
+ Expecting #NEXUS to be the first token in the file, but found ( instead
+at line 1, column (approximately) 2 (file position 1)
+
+Warning:
+ A TAXA block should be read before the TREES block (but no TAXA block was found).  Taxa will be inferred from their usage in the TREES block.
+at line 1, column (approximately) 87058 (file position 87057)
+   Successfully read file
+   "1985"
+   Processing file "rev_scripts/1985_clades.Rev"
+   Processing of file "rev_scripts/1985_clades.Rev" completed
+   1896.98
+   1413.54
+   905.019
+   204.13
+   253.503
+   0
+   "1986"
+   Processing file "rev_scripts/1986_clades.Rev"
+   Processing of file "rev_scripts/1986_clades.Rev" completed
+   1698.54
+   1299.9
+   400.402
+   233.732
+   246.234
+   0
+   "1988"
+   Processing file "rev_scripts/1988_clades.Rev"
+   Processing of file "rev_scripts/1988_clades.Rev" completed
+   1632.47
+   1301.33
+   214.756
+   557.007
+   491.727
+   0
+   "1989"                                                                                                                                                                    [65/648]
+   Processing file "rev_scripts/1989_clades.Rev"
+   Processing of file "rev_scripts/1989_clades.Rev" completed
+   1565.19
+   1316.7
+   279.009
+   477.985
+   437.854
+   0
+   "1991"
+   Processing file "rev_scripts/1991_clades.Rev"
+   Processing of file "rev_scripts/1991_clades.Rev" completed
+   1653.34
+   1672.04
+   78.6455
+   587.37
+   676.12
+   0
+   "1993"
+   Processing file "rev_scripts/1993_clades.Rev"
+   Processing of file "rev_scripts/1993_clades.Rev" completed
+   2219.99
+   2041.18
+   219.331
+   507.908
+   501.552
+   0
+   "1995"
+   Processing file "rev_scripts/1995_clades.Rev"
+   Processing of file "rev_scripts/1995_clades.Rev" completed
+   2018.63
+   1673.37
+   195.899
+   559.429
+   541.902
+   0
+   "1998"
+   Processing file "rev_scripts/1998_clades.Rev"
+   Processing of file "rev_scripts/1998_clades.Rev" completed
+   1893.69
+   1673.06
+   128.277
+   600.062
+   570.631
+   0
+   "2000"                                                                                                                                                                    [20/648]
+   Processing file "rev_scripts/2000_clades.Rev"
+   Processing of file "rev_scripts/2000_clades.Rev" completed
+   1592.45
+   1413.6
+   390.009
+   549.731
+   657.702
+   0
+   "2003"
+   Processing file "rev_scripts/2003_clades.Rev"
+   Processing of file "rev_scripts/2003_clades.Rev" completed
+   1950.1
+   1738.35
+   269.308
+   466.076
+   531.815
+   0
+   "2005"
+   Processing file "rev_scripts/2005_clades.Rev"
+   Processing of file "rev_scripts/2005_clades.Rev" completed
+   2122.6
+   2241.2
+   70.6863
+   719.915
+   751.369
+   0
+   "2007"
+   Processing file "rev_scripts/2007_clades.Rev"
+   Processing of file "rev_scripts/2007_clades.Rev" completed
+   1610.04
+   1736.09
+   64.8428
+   533.773
+   603.87
+   0
+   "2009"
+   Processing file "rev_scripts/2009_clades.Rev"
+   Processing of file "rev_scripts/2009_clades.Rev" completed
+   1800.92
+   1849.93
+   30.0465
+   648.535
+   614.994
+   0
+   "2011"
+   Processing file "rev_scripts/2011_clades.Rev"
+   Processing of file "rev_scripts/2011_clades.Rev" completed
+   2058.68
+   2086.01
+   19.4377
+   700.236
+   721.466
+   0
+   "2013"
+   Processing file "rev_scripts/2013_clades.Rev"
+   Processing of file "rev_scripts/2013_clades.Rev" completed
+   2664.99
+   2660.98
+   2.84778
+   749.085
+   817.157
+   0
+   Processing of file "calculate_pd.Rev" completed

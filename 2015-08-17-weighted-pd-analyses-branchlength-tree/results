@@ -1,0 +1,149 @@
+
+RevBayes version 1.0.0 beta 2 (2015-07-14)
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("calculate_pd.Rev")
+   Processing file "calculate_pd.Rev"
+   Attempting to read the contents of file "rooted_tree.tree"
+   Successfully read file
+   "1985"
+   Processing file "rev_scripts/1985_clades.Rev"
+   Processing of file "rev_scripts/1985_clades.Rev" completed
+   9.7799
+   6.80964
+   3.26402
+   0.941579
+   0.962819
+   0
+   "1986"
+   Processing file "rev_scripts/1986_clades.Rev"
+   Processing of file "rev_scripts/1986_clades.Rev" completed
+   8.91626
+   7.35013
+   1.55015
+   1.23608
+   1.32473
+   0
+   "1988"
+   Processing file "rev_scripts/1988_clades.Rev"
+   Processing of file "rev_scripts/1988_clades.Rev" completed
+   7.63956
+   6.99457
+   0.803345
+   2.48587
+   2.35209
+   0
+   "1989"
+   Processing file "rev_scripts/1989_clades.Rev"
+   Processing of file "rev_scripts/1989_clades.Rev" completed
+   7.65296
+   6.53191
+   1.12863
+   2.07593
+   1.91207
+   0
+   "1991"
+   Processing file "rev_scripts/1991_clades.Rev"
+   Processing of file "rev_scripts/1991_clades.Rev" completed
+   7.78063
+   8.10102
+   0.372404
+   2.73555
+   2.88995
+   0
+   "1993"
+   Processing file "rev_scripts/1993_clades.Rev"
+   Processing of file "rev_scripts/1993_clades.Rev" completed
+   11.2953
+   10.3026
+   0.943737
+   2.29281
+   2.38838
+   0
+   "1995"
+   Processing file "rev_scripts/1995_clades.Rev"
+   Processing of file "rev_scripts/1995_clades.Rev" completed
+   10.1177
+   9.25605
+   0.755336
+   2.18476
+   2.09417
+   0
+   "1998"
+   Processing file "rev_scripts/1998_clades.Rev"
+   Processing of file "rev_scripts/1998_clades.Rev" completed
+   8.67147
+   7.9612
+   0.513995
+   2.42617
+   2.27806
+   0
+   "2000"
+   Processing file "rev_scripts/2000_clades.Rev"
+   Processing of file "rev_scripts/2000_clades.Rev" completed
+   7.10514
+   6.45532
+   2.1604
+   2.01055
+   2.41672
+   0
+   "2003"
+   Processing file "rev_scripts/2003_clades.Rev"
+   Processing of file "rev_scripts/2003_clades.Rev" completed
+   8.95242
+   8.02448
+   1.17917
+   2.19356
+   2.21367
+   0
+   "2005"
+   Processing file "rev_scripts/2005_clades.Rev"
+   Processing of file "rev_scripts/2005_clades.Rev" completed
+   9.9608
+   10.5723
+   0.302734
+   2.97332
+   3.12836
+   0
+   "2007"
+   Processing file "rev_scripts/2007_clades.Rev"
+   Processing of file "rev_scripts/2007_clades.Rev" completed
+   7.69447
+   8.28173
+   0.26531
+   2.48076
+   2.77584
+   0
+   "2009"
+   Processing file "rev_scripts/2009_clades.Rev"
+   Processing of file "rev_scripts/2009_clades.Rev" completed
+   8.51266
+   9.08
+   0.118362
+   2.63954
+   2.60433
+   0
+   "2011"
+   Processing file "rev_scripts/2011_clades.Rev"
+   Processing of file "rev_scripts/2011_clades.Rev" completed
+   10.0677
+   10.4718
+   0.0762558
+   3.19375
+   3.24575
+   0
+   "2013"
+   Processing file "rev_scripts/2013_clades.Rev"
+   Processing of file "rev_scripts/2013_clades.Rev" completed
+   12.6503
+   12.6359
+   0.0121117
+   3.5935
+   3.75391
+   0
