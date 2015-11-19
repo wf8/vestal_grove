@@ -1,0 +1,8 @@
+./phylocom comdistnt -m 2 -r 999 -n -a > results_comdistnt
+./phylocom comdist -m 2 -r 999 -n -a > results_comdist
+./phylocom nodesig > results_nodesig.nex
+./phylocom comstruct -m 0 -r 9999 -a > results_m0
+./phylocom comstruct -m 1 -r 9999 -a > results_m1
+./phylocom comstruct -m 2 -r 9999 -a > results_m2
+./phylocom comstruct -m 3 -r 9999 -a > results_m3
+./phylocom comstruct -m 4 -r 9999 -a > results_m4
