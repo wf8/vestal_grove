@@ -1,0 +1,42 @@
+
+# 
+
+years = ["1985", "1986", "1988", "1989", "1991", "1993", "1995", "1998", "2000",
+         "2003", "2005", "2007", "2009", "2011", "2013"]
+
+tree <- readTrees("dated.nex")[1]
+
+for (i in 1:years.size()) {
+
+    years[i]
+
+    source("rev_scripts/" + years[i] + "_clades.Rev")
+    
+    all_clade = clade(taxa=all_taxa, age=0)
+    pd_all = fnPD(tree, all_clade, includeRoot=TRUE)
+
+    for (j in 1:all_taxa.size()) {
+    
+        taxon_n = 0
+
+        for (k in 1:all_taxa.size()) {
+
+            if (!( all_taxa[j] == all_taxa[k] )) {
+
+                all_other_taxa[ ++taxon_n ] = all_taxa[k]
+            
+            }
+    
+        }
+
+        this_clade = clade(taxa=all_other_taxa, age=0)
+
+        pd[j] = fnPD(tree, this_clade, includeRoot=TRUE)
+
+    }
+    
+    write(pd_all, all_taxa, cover_weights_all, pd, filename="output/" + years[i] + ".txt")
+
+}
+
+q()
