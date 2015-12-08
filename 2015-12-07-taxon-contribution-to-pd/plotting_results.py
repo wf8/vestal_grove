@@ -1,5 +1,8 @@
 
 import math
+from matplotlib import rcParams
+rcParams['font.family'] = 'sans-serif'
+rcParams['font.sans-serif'] = ['Arial']
 import matplotlib.pyplot as plt
 import numpy
 from scipy.stats import linregress
@@ -15,7 +18,8 @@ cover_1985 = [ 17.2, 5.7, 6.3, 5.3, 4.5, 4.1, 4.8, 3.6, 2.2, 2.6, 3, 2.3, 2.6, 3
 
 pd_by_taxon_1985 = [ 2573.2, 2557.94, 2557.02, 2475.31, 2571.94, 2521.56, 2500.55, 2549.64, 2509.61, 2538.24, 2508.51, 2517.94, 2557.02, 2571.93, 2572.69, 2571.94, 2519.31, 2512.11, 2569.17, 2572.69, 2531.42, 2565.29, 2529.24, 2557.47, 2561.56, 2569.17, 2561.56, 2570.8, 2549.01, 2572.57, 2571.93, 2531.42, 2532.96, 2494.65, 2564.4, 2572.57, 2572.3, 2549.01, 2572.3, 2511.74, 2569.63, 2560.06, 2569.63, 2573.2, 2529.24, 2549.64, 2565.29, 2560.66, 2570.8 ]
 
-per_pd_by_taxon_1985 = [ (total_pd_1985 - pd)/total_pd_1985  for pd in pd_by_taxon_1985 ]
+#per_pd_by_taxon_1985 = [ (total_pd_1985 - pd)/total_pd_1985  for pd in pd_by_taxon_1985 ]
+per_pd_by_taxon_1985 = [ (total_pd_1985 - pd)  for pd in pd_by_taxon_1985 ]
 
 ## 2013
 
@@ -27,7 +31,8 @@ cover_2013 = [ 16.4, 9.6, 6.6, 4.8, 4.2, 4.5, 2.1, 2.3, 3.3, 2.6, 2.3, 2.5, 1.7,
 
 pd_by_taxon_2013 = [ 3380.79, 3376.74, 3380.79, 3354.98, 3371.05, 3362.48, 3377.1, 3380.59, 3325.59, 3299.31, 3377.25, 3381.32, 3313.46, 3336.38, 3287.3, 3378.43, 3377.25, 3381.38, 3349.83, 3354.11, 3376.01, 3371.05, 3343.19, 3375.16, 3381.46, 3314.56, 3377.1, 3266.06, 3381.15, 3376.38, 3318.92, 3377.83, 3374.22, 3380.79, 3380.21, 3362.89, 3322.9, 3373.37, 3374.8, 3381.32, 3376.38, 3375.27, 3333.39, 3381.15, 3366.52, 3381.46, 3371.96, 3361.48, 3378.43, 3370.25, 3351.44, 3362.48, 3373.85, 3376.08, 3370.66, 3287.3, 3340.03, 3302.57, 3371.96, 3366.09, 3372.29, 3336.17, 3375.8, 3362.89, 3375.8, 3287, 3349.83, 3364.88, 3340.03, 3346.29, 3376.01, 3374.8, 3376.74, 3381.38, 3370.09, 3380.21, 3370.25, 3351.44, 3373.37, 3352.19, 3321.08, 3376.08, 3379.83, 3322.9 ]
 
-per_pd_by_taxon_2013 = [ (total_pd_2013 - pd)/total_pd_2013  for pd in pd_by_taxon_2013 ]
+#per_pd_by_taxon_2013 = [ (total_pd_2013 - pd)/total_pd_2013  for pd in pd_by_taxon_2013 ]
+per_pd_by_taxon_2013 = [ (total_pd_2013 - pd)  for pd in pd_by_taxon_2013 ]
 
 
 #log_per_pd_by_taxon_1985 = [ math.log( (total_pd_1985 - pd)/total_pd_1985 ) for pd in pd_by_taxon_1985 ]
@@ -71,5 +76,33 @@ print(numpy.mean( cover_by_pd_2013 ) )
 
 props = dict(alpha=0.5, edgecolors='none' )
 plt.scatter(cover_2013, per_pd_by_taxon_2013, c="blue", **props)
-plt.scatter(cover_1985, per_pd_by_taxon_1985, c="green", **props)
+plt.scatter(cover_1985, per_pd_by_taxon_1985, c="magenta", **props)
+plt.axis([0, 19, 0, 120.0])
 plt.show()
+
+all_taxa = []
+for taxon in taxa_2013:
+    if taxon not in all_taxa:
+        all_taxa.append(taxon)
+for taxon in taxa_1985:
+    if taxon not in all_taxa:
+        all_taxa.append(taxon)
+
+thru_time_1985 = []
+thru_time_2013 = []
+for taxon in all_taxa:
+    
+    if taxon in taxa_1985:
+        thru_time_1985.append(per_pd_by_taxon_1985[ taxa_1985.index( taxon ) ] )
+        #thru_time_1985.append(cover_by_pd_1985[ taxa_1985.index( taxon ) ] )
+    else:
+        thru_time_1985.append( 0.0 )
+    
+    if taxon in taxa_2013:
+        thru_time_2013.append(per_pd_by_taxon_2013[ taxa_2013.index( taxon ) ] )
+        #thru_time_2013.append(cover_by_pd_2013[ taxa_2013.index( taxon ) ] )
+    else:
+        thru_time_2013.append( 0.0 )
+
+#plt.scatter(thru_time_1985, thru_time_2013, c="magenta", **props)
+#plt.show()
